@@ -4,9 +4,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const mainNavbar = document.querySelector('.main-navbar');
     const secondaryNav = document.querySelector('.secondary-nav');
     const wrapper = document.querySelector('.buttons-wrapper');
-    const carousel = document.querySelector('.carousel');
-    const slides = document.querySelectorAll('.slide');
-    let currentIndex = 0;
 
 
     //funzione per cambiare la scritta meteo
@@ -114,14 +111,32 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function handleResize() {
         const showLarge = document.getElementById('showLarge');
+        const showLarge1 = document.getElementById('showLarge1');
+        const showLarge2 = document.getElementById('showLarge2');
+        const showLarge3 = document.getElementById('showLarge3');
         const showCarousel = document.getElementById('showCarousel');
+        const showCarousel1 = document.getElementById('showCarousel1');
+        const showCarousel2 = document.getElementById('showCarousel2');
+        const showCarousel3 = document.getElementById('showCarousel3');
 
         if (window.matchMedia("(max-width: 576px)").matches) {
             showLarge.style.display = 'none';
+            showLarge1.style.display = 'none';
+            showLarge2.style.display = 'none';
+            showLarge3.style.display = 'none';
             showCarousel.style.display = 'block';
+            showCarousel1.style.display = 'block';
+            showCarousel2.style.display = 'block';
+            showCarousel3.style.display = 'block';
         } else {
             showLarge.style.display = 'block';
+            showLarge1.style.display = 'block';
+            showLarge2.style.display = 'block';
+            showLarge3.style.display = 'block';
             showCarousel.style.display = 'none';
+            showCarousel1.style.display = 'none';
+            showCarousel2.style.display = 'none';
+            showCarousel3.style.display = 'none';
         }
     }
 

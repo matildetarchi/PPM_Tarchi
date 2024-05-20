@@ -129,7 +129,8 @@
    #showLarge {
         display: none;
     }
-    #showCarousel {
+    #showCarousel,
+    #showCarousel1{
         display: block;
     }
 }
@@ -184,7 +185,8 @@
     #showLarge {
         display: none;
     }
-    #showCarousel {
+    #showCarousel,
+    #showCarousel1{
         display: block;
     }
 }
