@@ -4,6 +4,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const mainNavbar = document.querySelector('.main-navbar');
     const secondaryNav = document.querySelector('.secondary-nav');
     const wrapper = document.querySelector('.buttons-wrapper');
+    const carousel = document.querySelector('.carousel');
+    const slides = document.querySelectorAll('.slide');
+    let currentIndex = 0;
 
 
     //funzione per cambiare la scritta meteo
@@ -121,6 +124,7 @@ document.addEventListener('DOMContentLoaded', () => {
             showCarousel.style.display = 'none';
         }
     }
+
 
 
 

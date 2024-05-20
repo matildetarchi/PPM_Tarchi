@@ -267,6 +267,7 @@
     padding-bottom: 2%;
     border-right: 10rem solid white;
     border-left: 10rem solid white;
+    display: inline-block;
 }
 
 .card-in-blue {
@@ -277,23 +278,34 @@
 
 /*carosello*/
 
+.carousel {
+    display: flex;
+    overflow-x: auto;
+    width: 100%; /* Adjust this value to set the width of the visible area */
+    scroll-behavior: smooth;
+}
+
+.slide {
+    min-width: 100%; /* Adjust this value to set the width of each slide */
+    box-sizing: border-box;
+    margin-right: 2%;
+}
 
 .speciale {
     text-decoration: none;
-    color:white;
+    color: white;
 }
 
 .speciale:hover {
     text-decoration: underline;
-    color:white;
+    color: white;
 }
 
-.carousel-special {
+.special {
     text-align: end;
     background-color: darkblue;
     margin-right: 0.3em;
     margin-left: 0.3em;
-    width: auto;
     padding: 3px;
 }
 
