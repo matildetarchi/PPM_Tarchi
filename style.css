@@ -1,0 +1,396 @@
+.container {
+    padding-left: 5%;
+    padding-right: 5%;
+    background: #f7f7f7;
+    border-right: 6.25em solid white;
+    border-left: 6.25em solid white;
+}
+
+.header {
+    width: 100%;
+    height: auto;
+}
+
+/*navbar*/
+
+.nav-shown,
+.nav-shown1{
+    display: none;
+}
+
+.main-navbar {
+    background-color: #1a3b70 !important;
+    font-family: "DM Sans", sans-serif;
+    font-weight: bold;
+    display: flex;
+    width: 100%;
+}
+
+.secondary-nav {
+    display: none;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+/*articoli*/
+
+.contents {
+    flex: 1 1 65%;
+    text-align: left;
+    padding: 10px;
+}
+
+.sidebar {
+    flex: 1 1 30%;
+    text-align: left;
+    padding: 10px;
+}
+
+
+.d-inline-flex,
+.scritta{
+    font-family: "Times New Roman", serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    font-size: 1rem;
+}
+
+.scroll-button {
+    display: none;
+}
+
+.meteo {
+    padding-top: 2rem;
+    display: flex;
+}
+
+.line-under-header {
+    height: 5px;
+    background-color: #1a3b70;
+    display: flex;
+}
+
+.line-under-header2 {
+    height: 1px;
+    background-color: #1a3b70;
+}
+
+.button {
+    border: none;
+    color: #f7f7f7;
+    padding: 8px 24px;
+    text-align: center;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 0.75rem;
+    margin: 0.25rem 0.125rem;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: #f7f7f7;
+    color: gray;
+}
+
+.button1:hover {
+    background-color: lightgray;
+    color: white;
+}
+
+.button2 {
+    background-color: #a92b2b;
+    color: white;
+}
+
+.button2:hover {
+    background-color: white;
+    color: #a92b2b;
+}
+
+.button-container {
+    padding-top: 2rem;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.buttons-wrapper {
+    overflow-x: auto;
+    display: flex;
+    flex-grow: 1;
+}
+
+.buttons {
+    display: flex;
+}
+
+.button {
+    white-space: nowrap;
+    flex: 0 0 auto;
+}
+
+.scroll-button {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    position: absolute;
+    z-index: 1;
+}
+
+.scroll-button.left {
+    left: 0;
+}
+
+.scroll-button.right {
+    right: 0;
+}
+
+
+.oblique-line {
+    color: #1a3b70;
+    font-size: 0.938rem;
+    font-weight: bold;
+}
+
+.oblique-line:hover {
+    color: white;
+    font-weight: bold;
+}
+
+.bi-star-fill:hover {
+    fill: #a92b2b;
+}
+
+.adverising {
+    height: auto;
+    width: auto;
+}
+
+.adverising img {
+    width: 100%;
+    height: 80%;
+}
+
+.bi-justify:hover,
+.bi-facebook:hover,
+.nav-link:hover,
+.btn-warning:hover,
+.bi-img:hover,
+.d-inline-block:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+}
+
+.text-logo:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+}
+
+.articles {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 1rem;
+    width: auto;
+    height: auto;
+    background: #f7f7f7;
+}
+
+.article-container {
+    background-color: white;
+    padding: 5%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.prima-pagina {
+    height: 22rem;
+    background-color: lightgray;
+    margin-bottom: 3rem;
+}
+
+
+/*cards*/
+
+.card-text {
+    color: black;
+    font-family: "Times New Roman", serif;
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.card-text-small {
+    color: black;
+    font-family: "Times New Roman", serif;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.card-text-small-right {
+    color: black;
+    font-family: "DM Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.card-text-small-blue {
+    color: black;
+    font-family: "Times New Roman", serif;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.card-text:hover,
+.card-text-small:hover,
+.card-text-small-right:hover,
+.card-text-small-blue:hover{
+    text-decoration: underline;
+}
+
+.blue-section {
+    width: auto;
+    background-color: #1a3b70;
+    height: auto;
+    text-align: left;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 2%;
+    border-right: 10rem solid white;
+    border-left: 10rem solid white;
+}
+
+.card-in-blue {
+    background-color: white;
+}
+
+
+
+/*carosello*/
+
+
+.speciale {
+    text-decoration: none;
+    color:white;
+}
+
+.speciale:hover {
+    text-decoration: underline;
+    color:white;
+}
+
+.carousel-special {
+    text-align: end;
+    background-color: darkblue;
+    margin-right: 0.3em;
+    margin-left: 0.3em;
+    width: auto;
+    padding: 3px;
+}
+
+#showCarousel {
+    display: none;
+}
+
+
+
+/*articoli prefooter*/
+
+
+.bi-suit-diamond-fill {
+    transform: rotate(50deg);
+}
+
+.scopri {
+    background-color: #1a3b70;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.scopri:hover {
+    background-color: navy;
+}
+
+.abbonati {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    border: none;
+}
+
+.abbonati:hover {
+    background-color: lightgray;
+}
+
+
+
+/*footer*/
+
+.line-pre-footer {
+    height: 5px;
+    background-color: black;
+}
+
+.pre-footer {
+    color: #1a3b70;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.pre-footer:hover {
+    text-decoration: underline;
+}
+
+.footer-link {
+    font-family: "DM Sans", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    color: #1a3b70;
+    margin-right: 20px;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+.footer-sx {
+    flex: 1 1 65%;
+    text-align: left;
+    padding: 10px;
+}
+
+.footer-dx {
+    flex: 1 1 30%;
+    text-align: left;
+    padding: 10px;
+}
+
+.scrittine {
+    text-align: left;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: auto;
+}
+
+.footer {
+    width: 100%;
+}
