@@ -122,7 +122,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const showCarousel2 = document.getElementById('showCarousel2');
         const showCarousel3 = document.getElementById('showCarousel3');
 
-        if (window.matchMedia("(max-width: 960px)").matches) {
+        if (window.matchMedia("(max-width: 980px)").matches) {
             showLarge.style.display = 'none';
             showLarge1.style.display = 'none';
             showLarge2.style.display = 'none';
@@ -156,12 +156,12 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 
-        aggiornaScrittaVisualizzata();
-        aggiornaDataVisualizzata();
-        navChanges();
-        handleResize();
+    aggiornaScrittaVisualizzata();
+    aggiornaDataVisualizzata();
+    navChanges();
+    handleResize();
 
     window.addEventListener('scroll', navChanges);
 
-   window.addEventListener('load', navChanges);
+    window.addEventListener('load', navChanges);
 });

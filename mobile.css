@@ -13,15 +13,8 @@
 }
 
 
-
-/* Media query per schermi fino a  960px */
-@media (max-width: 960px) {
-    .header {
-        padding-left: 0;
-        padding-right: 0;
-        border-right: none;
-        border-left: none;
-    }
+/* Media query per schermi fino a  980px */
+@media (max-width: 980px) {
 
     #navbarNav {
         display: none; !important;
@@ -48,7 +41,6 @@
     .secondary-nav {
         display: flex;
     }
-
 
     .meteo,
     .line-under-header {
@@ -107,42 +99,24 @@
 
 
 
-/* Media query per schermi fino a  768px */
-@media (max-width: 768px) {
-    .secondary-nav {
-        display: flex;
-    }
-
-    .container {
-        border-right: 18px solid white;
-        border-left: 18px solid white;
-    }
-
-    .blue-section {
-        border-right: 18px solid white;
-        border-left: 18px solid white;
-    }
-}
-
-
-
 /* Media query per schermi fino a 576px */
 @media (max-width: 576px) {
 
+    .container-all {
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+
     .secondary-nav {
         display: flex;
     }
 
     .container {
-        border-right: 5px solid white;
-        border-left: 5px solid white;
         padding-left: 2%;
         padding-right: 2%;
     }
 
     .blue-section {
-        border-right: 5px solid white;
-        border-left: 5px solid white;
         padding-left: 2%;
         padding-right: 2%;
     }
@@ -153,6 +127,7 @@
 
 /* Media query per schermi fino a 400px */
 @media (max-width: 400px) {
+
 
     .secondary-nav {
         display: flex;
@@ -178,6 +153,11 @@
         display: inline-block;
     }
 
+    .card-in-blue {
+        background-color: white;
+        width: 150px;
+        margin-right: 1em;
+    }
 
     .col {
         flex: 1 0 100%;

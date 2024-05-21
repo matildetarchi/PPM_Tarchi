@@ -108,348 +108,543 @@
             </div>
         </nav>
 
-
-        <div class="container text-center">
-            &nbsp;
-            <!--Header-->
-            <div class="row align-items-end mx-auto meteo">
-                <div class="col-12 col-md-4 text-center text-md-left">
-                    <div class="d-inline-flex">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="23" fill="#1a3b70" class="bi bi-cloud-sun-fill" viewBox="1 1 16 16">
-                            <path d="M11.473 11a4.5 4.5 0 0 0-8.72-.99A3 3 0 0 0 3 16h8.5a2.5 2.5 0 0 0 0-5z"/>
-                            <path d="M10.5 1.5a.5.5 0 0 0-1 0v1a.5.5 0 0 0 1 0zm3.743 1.964a.5.5 0 1 0-.707-.707l-.708.707a.5.5 0 0 0 .708.708zm-7.779-.707a.5.5 0 0 0-.707.707l.707.708a.5.5 0 1 0 .708-.708zm1.734 3.374a2 2 0 1 1 3.296 2.198q.3.423.516.898a3 3 0 1 0-4.84-3.225q.529.017 1.028.129m4.484 4.074c.6.215 1.125.59 1.522 1.072a.5.5 0 0 0 .039-.742l-.707-.707a.5.5 0 0 0-.854.377M14.5 6.5a.5.5 0 0 0 0 1h1a.5.5 0 0 0 0-1z"/>
-                        </svg>
-                        <span class="d-inline-flex" id="meteo"> <span style="font-size: 1rem">20°</span> Mantova</span>
+        <div class="container-all">
+            <div class="container text-center">
+                &nbsp;
+                <!--Header-->
+                <div class="row align-items-end mx-auto meteo">
+                    <div class="col-12 col-md-4 text-center text-md-left">
+                        <div class="d-inline-flex">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="23" fill="#1a3b70" class="bi bi-cloud-sun-fill" viewBox="1 1 16 16">
+                                <path d="M11.473 11a4.5 4.5 0 0 0-8.72-.99A3 3 0 0 0 3 16h8.5a2.5 2.5 0 0 0 0-5z"/>
+                                <path d="M10.5 1.5a.5.5 0 0 0-1 0v1a.5.5 0 0 0 1 0zm3.743 1.964a.5.5 0 1 0-.707-.707l-.708.707a.5.5 0 0 0 .708.708zm-7.779-.707a.5.5 0 0 0-.707.707l.707.708a.5.5 0 1 0 .708-.708zm1.734 3.374a2 2 0 1 1 3.296 2.198q.3.423.516.898a3 3 0 1 0-4.84-3.225q.529.017 1.028.129m4.484 4.074c.6.215 1.125.59 1.522 1.072a.5.5 0 0 0 .039-.742l-.707-.707a.5.5 0 0 0-.854.377M14.5 6.5a.5.5 0 0 0 0 1h1a.5.5 0 0 0 0-1z"/>
+                            </svg>
+                            <span class="d-inline-flex" id="meteo"> <span style="font-size: 1rem">20°</span> Mantova</span>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 text-center">
+                        <img src="https://placehold.co/1116x138/f7f7f7/black?text=La+Gazzetta+Di+Narnia&font=Montserrat" alt="Gazzetta di Narnia" class="bi bi-img2 img-fluid" width="500" height="60">
+                    </div>
+                    <div class="col-12 col-md-4 text-center text-md-right">
+                        <span class="scritta" id="dataVisualizzata">mercoledì, 01 maggio 2024 </span>
                     </div>
                 </div>
-                <div class="col-12 col-md-4 text-center">
-                    <img src="https://placehold.co/1116x138/f7f7f7/black?text=La+Gazzetta+Di+Narnia&font=Montserrat" alt="Gazzetta di Narnia" class="bi bi-img2 img-fluid" width="500" height="60">
-                </div>
-                <div class="col-12 col-md-4 text-center text-md-right">
-                    <span class="scritta" id="dataVisualizzata">mercoledì, 01 maggio 2024 </span>
-                </div>
-            </div>
 
-            <div class="line-under-header">
-            </div>
+                <div class="line-under-header">
+                </div>
 
-            <div class="button-container">
-                <button class="scroll-button left" onclick="scrollLeft()">&#10094;</button>
-                <div class="buttons-wrapper">
-                    <div class="buttons d-inline">
-                        <button class="button button1" type="button">
-                            <span class="oblique-line"> ///</span> <span style="padding-left: 5px;">CRONACA</span>
-                        </button>
-                        <button class="button button2" type="button">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="bi bi-star-fill" viewBox="0 0 16 16">
-                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                            </svg> &nbsp;
-                            MANTOVA CALCIO
-                        </button>
-                        <button class="button button1" type="button">
-                            <span class="oblique-line"> ///</span> <span style="padding-left: 5px;">CULTURA</span>
-                        </button>
-                        <button class="button button1" type="button">
-                            <span class="oblique-line"> ///</span> <span style="padding-left: 5px;">SPETTACOLI</span>
-                        </button>
-                        <button class="button button1" type="button">
-                            <span class="oblique-line"> ///</span> <span style="padding-left: 5px;">VIDEO</span>
-                        </button>
-                        <button class="button button1" type="button">
-                            <span class="oblique-line"> ///</span> <span style="padding-left: 5px;">ITALIA</span>
-                        </button>
+                <div class="button-container">
+                    <button class="scroll-button left" onclick="scrollLeft()">&#10094;</button>
+                    <div class="buttons-wrapper">
+                        <div class="buttons d-inline">
+                            <button class="button button1" type="button">
+                                <span class="oblique-line"> ///</span> <span style="padding-left: 5px;">CRONACA</span>
+                            </button>
+                            <button class="button button2" type="button">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                </svg> &nbsp;
+                                MANTOVA CALCIO
+                            </button>
+                            <button class="button button1" type="button">
+                                <span class="oblique-line"> ///</span> <span style="padding-left: 5px;">CULTURA</span>
+                            </button>
+                            <button class="button button1" type="button">
+                                <span class="oblique-line"> ///</span> <span style="padding-left: 5px;">SPETTACOLI</span>
+                            </button>
+                            <button class="button button1" type="button">
+                                <span class="oblique-line"> ///</span> <span style="padding-left: 5px;">VIDEO</span>
+                            </button>
+                            <button class="button button1" type="button">
+                                <span class="oblique-line"> ///</span> <span style="padding-left: 5px;">ITALIA</span>
+                            </button>
+                        </div>
                     </div>
+                    <button class="scroll-button right" onclick="scrollRight()">&#10095;</button>
                 </div>
-                <button class="scroll-button right" onclick="scrollRight()">&#10095;</button>
-            </div>
 
 
-            <div class="line-under-header2">
-            </div>
-            &nbsp;
-            <div class="adverising">
-                <img src="https://placehold.co/1944x500/gold/black?text=Mantovarchitetture&font=Raleway" alt="Immagine pubblicitaria">
-            </div>
+                <div class="line-under-header2">
+                </div>
+                &nbsp;
+                <div class="adverising">
+                    <img src="https://placehold.co/1944x500/gold/black?text=Mantovarchitetture&font=Raleway" alt="Immagine pubblicitaria">
+                </div>
 
-            <div class="articles">
-                <!-- Articles-->
-                <div class="contents">
-                    <div class="article-container">
-                        <img src="https://placehold.co/1264x716/1a3b70/white?text=Finanza&font=Montserrat" class="card-img-top" alt="Immagine finanza">
+                <div class="articles">
+                    <!-- Articles-->
+                    <div class="contents">
+                        <div class="article-container">
+                            <img src="https://placehold.co/1264x716/1a3b70/white?text=Finanza&font=Montserrat" class="card-img-top" alt="Immagine finanza">
 
-                        <span style="font-family: 'DM Sans', sans-serif; font-weight: bold"> /// TERRITORI</span>
-                        <br>
-                        <a href="#" class="card-text">Cinque imprenditori mantovani arrestati, la finanza sequestra 10 milioni di euro di beni</a>
+                            <span style="font-family: 'DM Sans', sans-serif; font-weight: bold"> /// TERRITORI</span>
+                            <br>
+                            <a href="#" class="card-text">Cinque imprenditori mantovani arrestati, la finanza sequestra 10 milioni di euro di beni</a>
+                        </div>
+                        &nbsp;
+                        <div class="card mb-3">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="https://placehold.co/410x226/white/lightbrown?text=Cucciolo+di+orso&font=Montserrat" class="img-fluid" alt="cucciolo di orso" style="padding-right: 10px">
+                                </div>
+                                <div class="col-md-8">
+                                    <span style="font-family: 'DM Sans', sans-serif; font-weight: bold"> /// TERRITORI</span>
+                                    <br>
+                                    <a href="#" class="card-text-small">Escursionista mantovano inseguito da un cucciolo di orso a Molveno</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card mb-3">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="https://placehold.co/408x230/white/blue?text=Bandiere&font=Montserrat" class="img-fluid" alt="foto di bandiere" style="padding-right: 10px">
+                                </div>
+                                <div class="col-md-8">
+                                    <span style="font-family: 'DM Sans', sans-serif; font-weight: bold"> /// TERRITORI</span>
+                                    <br>
+                                    <a href="#" class="card-text-small">Le suore rimuovono le bandiere sindacali dalla Rsa di Solferino</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card mb-3">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="https://placehold.co/404x232/white/black?text=Foto+del+ponte&font=Montserrat" class="img-fluid" alt="foto del ponte" style="padding-right: 10px">
+                                </div>
+                                <div class="col-md-8">
+                                    <span style="font-family: 'DM Sans', sans-serif; font-weight: bold"> /// TERRITORI</span>
+                                    <br>
+                                    <a href="#" class="card-text-small">Ponte sul Fissaro-Tartaro chiuso fino al 28 giugno</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card mb-3">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="https://placehold.co/410x226/white/black?text=Supercoppa&font=Montserrat" class="img-fluid" alt="Supercoppa" style="padding-right: 10px">
+                                </div>
+                                <div class="col-md-8">
+                                    <span style="font-family: 'DM Sans', sans-serif; font-weight: bold"> /// MANTOVA CALCIO</span>
+                                    <br>
+                                    <a href="#" class="card-text-small">Studio Biancorosso: Mantova-Cesena 1-2, supercoppa con beffa</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card mb-3">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="https://placehold.co/410x230/white/red?text=Squadra+di+Mantova&font=Montserrat" class="img-fluid" alt="Mantova calcio" style="padding-right: 10px">
+                                </div>
+                                <div class="col-md-8">
+                                    <span style="font-family: 'DM Sans', sans-serif; font-weight: bold"> /// MANTOVA CALCIO</span>
+                                    <br>
+                                    <a href="#" class="card-text-small">Mantova: ecco le lezioni da trarre in vista della serie B, dopo la gara di Supercoppa</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card mb-3">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="https://placehold.co/410x226/white/black?text=Economia&font=Montserrat" class="img-fluid" alt="bosco" style="padding-right: 10px">
+                                </div>
+                                <div class="col-md-8">
+                                    <span style="font-family: 'DM Sans', sans-serif; font-weight: bold"> /// ECONOMIA MANTOVANA</span>
+                                    <br>
+                                    <a href="#" class="card-text-small">La fibra di Mynet arriva al Bosco Fontana di Marmirolo</a>
+                                </div>
+                            </div>
+                        </div>
+
+
                     </div>
+
+                    <!-- Sidebar-->
+                    <div class="sidebar">
+                        <img src="https://placehold.co/596x498/crimson/black?text=Pubblicità+auto+Hyundai&font=Montserrat" alt="immagine pubblicitaria" style="width: 100%; height:10%">
+                        &nbsp;
+                        <h1 style="color: #1a3b70; font-family: 'Times New Roman'; font-weight: bold; font-size: 2rem"> Prima Pagina </h1>
+                        &nbsp;
+                        <div class="prima-pagina">
+                            <img src="https://placehold.co/502x714/white/1a3b70?text=Prima+Pagina&font=Montserrat" alt="prima pagina della gazzetta" style="height: 80%; width: 80%; margin-left: 30px;margin-bottom: 10px;margin-top: -25px">
+
+                            <h4 style="font-family: 'Times New Roman';font-weight: bold; margin-left: 30px;">La prima pagina di oggi</h4>
+                        </div>
+
+                        <h1 style="color: #1a3b70; font-family: 'Times New Roman'; font-weight: bold; font-size: 2rem"> I più letti </h1>
+                        &nbsp;
+
+
+                        <div class="card mb-3">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="https://placehold.co/404x232/white/black?text=Immagine+ponte&font=Montserrat" class="img-fluid" style="padding-right: 10px">
+                                </div>
+                                <div class="col-md-8">
+                                    <span style="font-family: 'DM Sans', sans-serif; font-weight: bold"> /// TERRITORI</span>
+                                    <br>
+                                    <a href="#" class="card-text-small-right">Ponte sul Fissaro-Tartaro chiuso fino al 28 giugno</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div style="text-align: center">
+                            <p style="color:#1a3b70; font-weight: bold; font-size: 14px;">.....................................................</p>
+                        </div>
+
+                        <div class="card mb-3">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="https://placehold.co/410x226/white/brown?text=Cucciolo+di+orso&font=Montserrat" class="img-fluid" style="padding-right: 10px">
+                                </div>
+                                <div class="col-md-8">
+                                    <span style="font-family: 'DM Sans', sans-serif; font-weight: bold"> /// TERRITORI</span>
+                                    <br>
+                                    <a href="#" class="card-text-small-right">Escursionista mantovano inseguito da un cucciolo di orso a Molveno</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div style="text-align: center">
+                            <p style="color:#1a3b70; font-weight: bold; font-size: 14px;">.....................................................</p>
+                        </div>
+
+                        <div class="card mb-3">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="https://placehold.co/410x226/red/white?text=Squadra+di+Mantova&font=Montserrat" class="img-fluid" style="padding-right: 10px;">
+                                </div>
+                                <div class="col-md-8">
+                                    <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// MANTOVA CALCIO</span>
+                                    <br>
+                                    <a href="#" class="card-text-small-right">Mantova: ecco le lezioni da trarre in vista della serie B, dopo la gara di Supercoppa</a>
+                                </div>
+                            </div>
+                        </div>
+                        &nbsp;&nbsp;
+
+                        <div style="height: 200px;background-color: lightgray;margin-bottom: 20px;">
+                            <img src="https://placehold.co/498x416/lightblue/1a3b70?text=Elezioni%0AComunali&font=Montserrat" style="height: 100%; width: 80%; margin-left: 30px;margin-bottom: 10px;margin-top: -25px">
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!--mostrata quando schermo largo-->
+            <div class="blue-section" id="showLarge1">
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="bi bi-suit-diamond-fill" viewBox="0 0 16 16">
+                        <path d="M2.45 7.4 7.2 1.067a1 1 0 0 1 1.6 0L13.55 7.4a1 1 0 0 1 0 1.2L8.8 14.933a1 1 0 0 1-1.6 0L2.45 8.6a1 1 0 0 1 0-1.2"/>
+                    </svg>
                     &nbsp;
-                    <div class="card mb-3">
-                        <div class="row g-0">
-                            <div class="col-md-4">
-                                <img src="https://placehold.co/410x226/white/lightbrown?text=Cucciolo+di+orso&font=Montserrat" class="img-fluid" alt="cucciolo di orso" style="padding-right: 10px">
-                            </div>
-                            <div class="col-md-8">
-                                <span style="font-family: 'DM Sans', sans-serif; font-weight: bold"> /// TERRITORI</span>
-                                <br>
-                                <a href="#" class="card-text-small">Escursionista mantovano inseguito da un cucciolo di orso a Molveno</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card mb-3">
-                        <div class="row g-0">
-                            <div class="col-md-4">
-                                <img src="https://placehold.co/408x230/white/blue?text=Bandiere&font=Montserrat" class="img-fluid" alt="foto di bandiere" style="padding-right: 10px">
-                            </div>
-                            <div class="col-md-8">
-                                <span style="font-family: 'DM Sans', sans-serif; font-weight: bold"> /// TERRITORI</span>
-                                <br>
-                                <a href="#" class="card-text-small">Le suore rimuovono le bandiere sindacali dalla Rsa di Solferino</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card mb-3">
-                        <div class="row g-0">
-                            <div class="col-md-4">
-                                <img src="https://placehold.co/404x232/white/black?text=Foto+del+ponte&font=Montserrat" class="img-fluid" alt="foto del ponte" style="padding-right: 10px">
-                            </div>
-                            <div class="col-md-8">
-                                <span style="font-family: 'DM Sans', sans-serif; font-weight: bold"> /// TERRITORI</span>
-                                <br>
-                                <a href="#" class="card-text-small">Ponte sul Fissaro-Tartaro chiuso fino al 28 giugno</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card mb-3">
-                        <div class="row g-0">
-                            <div class="col-md-4">
-                                <img src="https://placehold.co/410x226/white/black?text=Supercoppa&font=Montserrat" class="img-fluid" alt="Supercoppa" style="padding-right: 10px">
-                            </div>
-                            <div class="col-md-8">
-                                <span style="font-family: 'DM Sans', sans-serif; font-weight: bold"> /// MANTOVA CALCIO</span>
-                                <br>
-                                <a href="#" class="card-text-small">Studio Biancorosso: Mantova-Cesena 1-2, supercoppa con beffa</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card mb-3">
-                        <div class="row g-0">
-                            <div class="col-md-4">
-                                <img src="https://placehold.co/410x230/white/red?text=Squadra+di+Mantova&font=Montserrat" class="img-fluid" alt="Mantova calcio" style="padding-right: 10px">
-                            </div>
-                            <div class="col-md-8">
-                                <span style="font-family: 'DM Sans', sans-serif; font-weight: bold"> /// MANTOVA CALCIO</span>
-                                <br>
-                                <a href="#" class="card-text-small">Mantova: ecco le lezioni da trarre in vista della serie B, dopo la gara di Supercoppa</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card mb-3">
-                        <div class="row g-0">
-                            <div class="col-md-4">
-                                <img src="https://placehold.co/410x226/white/black?text=Economia&font=Montserrat" class="img-fluid" alt="bosco" style="padding-right: 10px">
-                            </div>
-                            <div class="col-md-8">
-                                <span style="font-family: 'DM Sans', sans-serif; font-weight: bold"> /// ECONOMIA MANTOVANA</span>
-                                <br>
-                                <a href="#" class="card-text-small">La fibra di Mynet arriva al Bosco Fontana di Marmirolo</a>
-                            </div>
-                        </div>
-                    </div>
-
-
+                    <span style="font-size: 35px; font-family: 'Times New Roman';font-weight: bold; color: white"> Mantova calcio</span>
                 </div>
+                &nbsp;
 
-                <!-- Sidebar-->
-                <div class="sidebar">
-                    <img src="https://placehold.co/596x498/crimson/black?text=Pubblicità+auto+Hyundai&font=Montserrat" alt="immagine pubblicitaria" style="width: 100%; height:10%">
-                    &nbsp;
-                    <h1 style="color: #1a3b70; font-family: 'Times New Roman'; font-weight: bold; font-size: 2rem"> Prima Pagina </h1>
-                    &nbsp;
-                    <div class="prima-pagina">
-                        <img src="https://placehold.co/502x714/white/1a3b70?text=Prima+Pagina&font=Montserrat" alt="prima pagina della gazzetta" style="height: 80%; width: 80%; margin-left: 30px;margin-bottom: 10px;margin-top: -25px">
-
-                        <h4 style="font-family: 'Times New Roman';font-weight: bold; margin-left: 30px;">La prima pagina di oggi</h4>
-                    </div>
-
-                    <h1 style="color: #1a3b70; font-family: 'Times New Roman'; font-weight: bold; font-size: 2rem"> I più letti </h1>
-                    &nbsp;
-
-
-                    <div class="card mb-3">
-                        <div class="row g-0">
-                            <div class="col-md-4">
-                                <img src="https://placehold.co/404x232/white/black?text=Immagine+ponte&font=Montserrat" class="img-fluid" style="padding-right: 10px">
-                            </div>
-                            <div class="col-md-8">
-                                <span style="font-family: 'DM Sans', sans-serif; font-weight: bold"> /// TERRITORI</span>
-                                <br>
-                                <a href="#" class="card-text-small-right">Ponte sul Fissaro-Tartaro chiuso fino al 28 giugno</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div style="text-align: center">
-                        <p style="color:#1a3b70; font-weight: bold; font-size: 14px;">.....................................................</p>
-                    </div>
-
-                    <div class="card mb-3">
-                        <div class="row g-0">
-                            <div class="col-md-4">
-                                <img src="https://placehold.co/410x226/white/brown?text=Cucciolo+di+orso&font=Montserrat" class="img-fluid" style="padding-right: 10px">
-                            </div>
-                            <div class="col-md-8">
-                                <span style="font-family: 'DM Sans', sans-serif; font-weight: bold"> /// TERRITORI</span>
-                                <br>
-                                <a href="#" class="card-text-small-right">Escursionista mantovano inseguito da un cucciolo di orso a Molveno</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div style="text-align: center">
-                        <p style="color:#1a3b70; font-weight: bold; font-size: 14px;">.....................................................</p>
-                    </div>
-
-                    <div class="card mb-3">
-                        <div class="row g-0">
-                            <div class="col-md-4">
-                                <img src="https://placehold.co/410x226/red/white?text=Squadra+di+Mantova&font=Montserrat" class="img-fluid" style="padding-right: 10px;">
-                            </div>
-                            <div class="col-md-8">
+                <div class="row row-cols-1 row-cols-md-4 g-4">
+                    <div class="col">
+                        <div class="card-in-blue" >
+                            <img src="https://placehold.co/446x250/green/white?text=Mantova+-+Cesena&font=Montserrat" class="card-img-top">
+                            <div class="card-body" style="padding-left: 10px;padding-right: 10px">
                                 <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// MANTOVA CALCIO</span>
                                 <br>
-                                <a href="#" class="card-text-small-right">Mantova: ecco le lezioni da trarre in vista della serie B, dopo la gara di Supercoppa</a>
+                                <a href="#" class="card-text-small-blue">Studio Biancorosso: Mantova-Cesena 1-2, Supercoppa con beffa</a>
                             </div>
                         </div>
                     </div>
-                    &nbsp;&nbsp;
-
-                    <div style="height: 200px;background-color: lightgray;margin-bottom: 20px;">
-                        <img src="https://placehold.co/498x416/lightblue/1a3b70?text=Elezioni%0AComunali&font=Montserrat" style="height: 100%; width: 80%; margin-left: 30px;margin-bottom: 10px;margin-top: -25px">
+                    <div class="col">
+                        <div class="card-in-blue" >
+                            <img src="https://placehold.co/446x250/white/red?text=Squadra+di+Mantova&font=Montserrat" class="card-img-top">
+                            <div class="card-body" style="padding-left: 10px;padding-right: 10px">
+                                <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// MANTOVA CALCIO</span>
+                                <br>
+                                <a href="#" class="card-text-small-blue">Mantova, ecco le lezioni da trarre in vista della serie B dopo la gara di Supercoppa</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card-in-blue" >
+                            <img src="https://placehold.co/446x250/white/red?text=Calciatore+del+Mantova&font=Montserrat" class="card-img-top">
+                            <div class="card-body" style="padding-left: 10px;padding-right: 10px">
+                                <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// MANTOVA CALCIO</span>
+                                <br>
+                                <a href="#" class="card-text-small-blue">Il Mantova dà una lezione di calcio, ma al Martelli fa festa il Cesena</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card-in-blue" >
+                            <img src="https://placehold.co/446x250/red/white?text=Mantova+-+Cesena&font=Montserrat" class="card-img-top">
+                            <div class="card-body" style="padding-left: 10px;padding-right: 10px">
+                                <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// MANTOVA CALCIO</span>
+                                <br>
+                                <a href="#" class="card-text-small-blue">Supercoppa, Mantova beffato nel recupero: il Cesena vince 2-1 al Martelli</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
-            </div>
+                &nbsp;&nbsp;
 
-        </div>
-
-
-        <!--mostrata quando schermo largo-->
-        <div class="blue-section" id="showLarge1">
-            <div>
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="bi bi-suit-diamond-fill" viewBox="0 0 16 16">
-                    <path d="M2.45 7.4 7.2 1.067a1 1 0 0 1 1.6 0L13.55 7.4a1 1 0 0 1 0 1.2L8.8 14.933a1 1 0 0 1-1.6 0L2.45 8.6a1 1 0 0 1 0-1.2"/>
-                </svg>
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="bi bi-suit-diamond-fill" viewBox="0 0 16 16">
+                        <path d="M2.45 7.4 7.2 1.067a1 1 0 0 1 1.6 0L13.55 7.4a1 1 0 0 1 0 1.2L8.8 14.933a1 1 0 0 1-1.6 0L2.45 8.6a1 1 0 0 1 0-1.2"/>
+                    </svg>
+                    &nbsp;
+                    <span style="font-size: 35px; font-family: 'Times New Roman';font-weight: bold; color: white">Sport</span>
+                </div>
                 &nbsp;
-                <span style="font-size: 35px; font-family: 'Times New Roman';font-weight: bold; color: white"> Mantova calcio</span>
-            </div>
-            &nbsp;
 
-            <div class="row row-cols-1 row-cols-md-4 g-4">
-                <div class="col">
-                    <div class="card-in-blue" style="width: 220px;height: 240px;">
-                        <img src="https://placehold.co/446x250/green/white?text=Mantova+-+Cesena&font=Montserrat" class="card-img-top">
-                        <div class="card-body" style="padding-left: 10px;padding-right: 10px">
-                            <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// MANTOVA CALCIO</span>
-                            <br>
-                            <a href="#" class="card-text-small-blue">Studio Biancorosso: Mantova-Cesena 1-2, Supercoppa con beffa</a>
+                <div class="row row-cols-1 row-cols-md-4 g-4">
+                    <div class="col">
+                        <div class="card-in-blue" >
+                            <img src="https://placehold.co/446x250/white/black?text=Giro+d'+Italia&font=Montserrat" class="card-img-top">
+                            <div class="card-body" style="padding-left: 10px;padding-right: 10px">
+                                <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// SPORT</span>
+                                <br>
+                                <a href="#" class="card-text-small-blue">Giro d'Italia presentato anche a Mantova: "E non ci fermiamo"</a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card-in-blue" style="width: 220px;height: 240px;">
-                        <img src="https://placehold.co/446x250/white/red?text=Squadra+di+Mantova&font=Montserrat" class="card-img-top">
-                        <div class="card-body" style="padding-left: 10px;padding-right: 10px">
-                            <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// MANTOVA CALCIO</span>
-                            <br>
-                            <a href="#" class="card-text-small-blue">Mantova, ecco le lezioni da trarre in vista della serie B dopo la gara di Supercoppa</a>
+                    <div class="col">
+                        <div class="card-in-blue" >
+                            <img src="https://placehold.co/446x250/white/black?text=Foto+del+Calciatore&font=Montserrat" class="card-img-top">
+                            <div class="card-body" style="padding-left: 10px;padding-right: 10px">
+                                <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// CALCIO</span>
+                                <br>
+                                <a href="#" class="card-text-small-blue"> Debenedetti e il primo gol con il Mantova nella sconfitta con il Cesena</a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card-in-blue" style="width: 220px;height: 240px;">
-                        <img src="https://placehold.co/446x250/white/red?text=Calciatore+del+Mantova&font=Montserrat" class="card-img-top">
-                        <div class="card-body" style="padding-left: 10px;padding-right: 10px">
-                            <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// MANTOVA CALCIO</span>
-                            <br>
-                            <a href="#" class="card-text-small-blue">Il Mantova dà una lezione di calcio, ma al Martelli fa festa il Cesena</a>
+                    <div class="col">
+                        <div class="card-in-blue" >
+                            <img src="https://placehold.co/446x250/orange/white?text=Tennista+donna&font=Montserrat" class="card-img-top">
+                            <div class="card-body" style="padding-left: 10px;padding-right: 10px">
+                                <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// SPORT NAZIONALE</span>
+                                <br>
+                                <a href="#" class="card-text-small-blue">Internazionali: Paolini 'pressioni? Voglio godermi il momento'</a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card-in-blue" style="width: 220px;height: 240px;">
-                        <img src="https://placehold.co/446x250/red/white?text=Mantova+-+Cesena&font=Montserrat" class="card-img-top">
-                        <div class="card-body" style="padding-left: 10px;padding-right: 10px">
-                            <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// MANTOVA CALCIO</span>
-                            <br>
-                            <a href="#" class="card-text-small-blue">Supercoppa, Mantova beffato nel recupero: il Cesena vince 2-1 al Martelli</a>
+                    <div class="col">
+                        <div class="card-in-blue" >
+                            <img src="https://placehold.co/446x250/white/red?text=Immagine+della+partita&font=Montserrat" class="card-img-top">
+                            <div class="card-body" style="padding-left: 10px;padding-right: 10px">
+                                <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// SPORT NAZIONALE</span>
+                                <br>
+                                <a href="#" class="card-text-small-blue">E. League: a Makkelie Bayer-Roma, Atalanta-Marsiglia a Manzano</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            &nbsp;&nbsp;
 
-            <div>
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="bi bi-suit-diamond-fill" viewBox="0 0 16 16">
-                    <path d="M2.45 7.4 7.2 1.067a1 1 0 0 1 1.6 0L13.55 7.4a1 1 0 0 1 0 1.2L8.8 14.933a1 1 0 0 1-1.6 0L2.45 8.6a1 1 0 0 1 0-1.2"/>
-                </svg>
-                &nbsp;
-                <span style="font-size: 35px; font-family: 'Times New Roman';font-weight: bold; color: white">Sport</span>
+            <!--mostrata quando schermo stretto-->
+            <div class="gallery-container" id="showCarousel1">
+                <div class="gallery blue-section" style="background-color: darkblue">
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="bi bi-suit-diamond-fill" viewBox="0 0 16 16">
+                            <path d="M2.45 7.4 7.2 1.067a1 1 0 0 1 1.6 0L13.55 7.4a1 1 0 0 1 0 1.2L8.8 14.933a1 1 0 0 1-1.6 0L2.45 8.6a1 1 0 0 1 0-1.2"/>
+                        </svg>
+                        &nbsp;
+                        <span style="font-size: 35px; font-family: 'Times New Roman';font-weight: bold; color: white"> Mantova calcio</span>
+                    </div>
+
+                    <div class="carousel-wrapper">
+                        <div class="row-up">
+                            <div class="carousel-up">
+                                <div class="slide-up">
+                                    <div class="card-in-blue" >
+                                        <img src="https://placehold.co/446x250/red/white?text=Mantova+-+Cesena&font=Montserrat" class="card-img-top">
+                                        <div class="card-body" style="padding-left: 10px;padding-right: 10px">
+                                            <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// MANTOVA CALCIO</span>
+                                            <br>
+                                            <a href="#" class="card-text-small-blue">Supercoppa, Mantova beffato nel recupero: il Cesena vince 2-1 al Martelli</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slide-up">
+                                    <div class="card-in-blue" >
+                                        <img src="https://placehold.co/446x250/white/red?text=Squadra+di+Mantova&font=Montserrat" class="card-img-top">
+                                        <div class="card-body" style="padding-left: 10px;padding-right: 10px">
+                                            <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// MANTOVA CALCIO</span>
+                                            <br>
+                                            <a href="#" class="card-text-small-blue">Mantova, ecco le lezioni da trarre in vista della serie B dopo la gara di Supercoppa</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slide-up">
+                                    <div class="card-in-blue" >
+                                        <img src="https://placehold.co/446x250/white/red?text=Squadra+di+Mantova&font=Montserrat" class="card-img-top">
+                                        <div class="card-body" style="padding-left: 10px;padding-right: 10px">
+                                            <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// MANTOVA CALCIO</span>
+                                            <br>
+                                            <a href="#" class="card-text-small-blue">Mantova, ecco le lezioni da trarre in vista della serie B dopo la gara di Supercoppa</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slide-up">
+                                    <div class="card-in-blue" >
+                                        <img src="https://placehold.co/446x250/white/red?text=Squadra+di+Mantova&font=Montserrat" class="card-img-top">
+                                        <div class="card-body" style="padding-left: 10px;padding-right: 10px">
+                                            <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// MANTOVA CALCIO</span>
+                                            <br>
+                                            <a href="#" class="card-text-small-blue">Mantova, ecco le lezioni da trarre in vista della serie B dopo la gara di Supercoppa</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="bi bi-suit-diamond-fill" viewBox="0 0 16 16">
+                                <path d="M2.45 7.4 7.2 1.067a1 1 0 0 1 1.6 0L13.55 7.4a1 1 0 0 1 0 1.2L8.8 14.933a1 1 0 0 1-1.6 0L2.45 8.6a1 1 0 0 1 0-1.2"/>
+                            </svg>
+                            &nbsp;
+                            <span style="font-size: 35px; font-family: 'Times New Roman';font-weight: bold; color: white">Sport</span>
+                        </div>
+
+                        <div class="row-up">
+                            <div class="carousel-up">
+                                <div class="slide-up">
+                                    <div class="card-in-blue" >
+                                        <img src="https://placehold.co/446x250/red/white?text=Mantova+-+Cesena&font=Montserrat" class="card-img-top">
+                                        <div class="card-body" style="padding-left: 10px;padding-right: 10px">
+                                            <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// MANTOVA CALCIO</span>
+                                            <br>
+                                            <a href="#" class="card-text-small-blue">Supercoppa, Mantova beffato nel recupero: il Cesena vince 2-1 al Martelli</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slide-up">
+                                    <div class="card-in-blue" >
+                                        <img src="https://placehold.co/446x250/white/red?text=Squadra+di+Mantova&font=Montserrat" class="card-img-top">
+                                        <div class="card-body" style="padding-left: 10px;padding-right: 10px">
+                                            <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// MANTOVA CALCIO</span>
+                                            <br>
+                                            <a href="#" class="card-text-small-blue">Mantova, ecco le lezioni da trarre in vista della serie B dopo la gara di Supercoppa</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slide-up">
+                                    <div class="card-in-blue" >
+                                        <img src="https://placehold.co/446x250/white/red?text=Squadra+di+Mantova&font=Montserrat" class="card-img-top">
+                                        <div class="card-body" style="padding-left: 10px;padding-right: 10px">
+                                            <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// MANTOVA CALCIO</span>
+                                            <br>
+                                            <a href="#" class="card-text-small-blue">Mantova, ecco le lezioni da trarre in vista della serie B dopo la gara di Supercoppa</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slide-up">
+                                    <div class="card-in-blue" >
+                                        <img src="https://placehold.co/446x250/white/red?text=Squadra+di+Mantova&font=Montserrat" class="card-img-top">
+                                        <div class="card-body" style="padding-left: 10px;padding-right: 10px">
+                                            <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// MANTOVA CALCIO</span>
+                                            <br>
+                                            <a href="#" class="card-text-small-blue">Mantova, ecco le lezioni da trarre in vista della serie B dopo la gara di Supercoppa</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            &nbsp;
 
-            <div class="row row-cols-1 row-cols-md-4 g-4">
-                <div class="col">
-                    <div class="card-in-blue" style="width: 220px;height: 240px;">
-                        <img src="https://placehold.co/446x250/white/black?text=Giro+d'+Italia&font=Montserrat" class="card-img-top">
-                        <div class="card-body" style="padding-left: 10px;padding-right: 10px">
-                            <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// SPORT</span>
-                            <br>
-                            <a href="#" class="card-text-small-blue">Giro d'Italia presentato anche a Mantova: "E non ci fermiamo"</a>
+
+            <div class="container text-center">
+                <div class="articles" >
+                    <div class="contents">
+                        <div class="card mb-3">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="https://placehold.co/412x230/lightgreen/gray?text=Canino+vincitore&font=Montserrat" class="img-fluid" alt="canino" style="padding-right: 10px">
+                                </div>
+                                <div class="col-md-8">
+                                    <span style="font-family: 'DM Sans', sans-serif; font-weight: bold"> /// ANIMALI</span>
+                                    <br>
+                                    <a href="#" class="card-text-small">James Bond di Monzambano vince il dog show di Zagabria</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card mb-3">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="https://placehold.co/410x230/white/black?text=Persone&font=Montserrat" class="img-fluid" alt="persone" style="padding-right: 10px">
+                                </div>
+                                <div class="col-md-8">
+                                    <span style="font-family: 'DM Sans', sans-serif; font-weight: bold"> /// </span>
+                                    <br>
+                                    <a href="#" class="card-text-small">A Mantova nuovo studio per eliminare gli odori</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card mb-3">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="https://placehold.co/408x232/white/black?text=Cercasi%0APersonale&font=Montserratg" class="img-fluid" alt="" style="padding-right: 10px">
+                                </div>
+                                <div class="col-md-8">
+                                    <span style="font-family: 'DM Sans', sans-serif; font-weight: bold"> /// COMPETENZE</span>
+                                    <br>
+                                    <a href="#" class="card-text-small">Competenze medio-basse in 9 assunzioni su 10 nel Mantovano</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card mb-3">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="https://placehold.co/408x232/white/gold?text=Pompieri&font=Montserratg" class="img-fluid" alt="pompieri" style="padding-right: 10px">
+                                </div>
+                                <div class="col-md-8">
+                                    <span style="font-family: 'DM Sans', sans-serif; font-weight: bold"> /// </span>
+                                    <br>
+                                    <a href="#" class="card-text-small">Incendio in una casa in viale Rimembranze a Mantova, deunciati quattro ragazzini</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card mb-3">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="https://placehold.co/408x232/gray/black?text=Immagine+della+strada&font=Montserratg" class="img-fluid" alt="foto strada" style="padding-right: 10px">
+                                </div>
+                                <div class="col-md-8">
+                                    <span style="font-family: 'DM Sans', sans-serif; font-weight: bold"> /// </span>
+                                    <br>
+                                    <a href="#" class="card-text-small">Perdite d'acqua tra i viali Hermada e Pasubio a Mantova: lunedì via alle riparazioni</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card-in-blue" style="width: 220px;height: 240px;">
-                        <img src="https://placehold.co/446x250/white/black?text=Foto+del+Calciatore&font=Montserrat" class="card-img-top">
-                        <div class="card-body" style="padding-left: 10px;padding-right: 10px">
-                            <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// CALCIO</span>
-                            <br>
-                            <a href="#" class="card-text-small-blue"> Debenedetti e il primo gol con il Mantova nella sconfitta con il Cesena</a>
+
+                    <div class="sidebar">
+
+                        <div style="height: 200px;background-color: lightgray;margin-bottom: 20px;">
+                            <img src="https://placehold.co/500x418/limegreen/white?text=Info+viabilità%0APrevisioni+traffico%0AWeb+cam&font=Montserratg" style="height: 100%; width: 80%; margin-left: 30px;margin-bottom: 10px;margin-top: -25px">
                         </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card-in-blue" style="width: 220px;height: 240px;">
-                        <img src="https://placehold.co/446x250/orange/white?text=Tennista+donna&font=Montserrat" class="card-img-top">
-                        <div class="card-body" style="padding-left: 10px;padding-right: 10px">
-                            <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// SPORT NAZIONALE</span>
-                            <br>
-                            <a href="#" class="card-text-small-blue">Internazionali: Paolini 'pressioni? Voglio godermi il momento'</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card-in-blue" style="width: 220px;height: 240px;">
-                        <img src="https://placehold.co/446x250/white/red?text=Immagine+della+partita&font=Montserrat" class="card-img-top">
-                        <div class="card-body" style="padding-left: 10px;padding-right: 10px">
-                            <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// SPORT NAZIONALE</span>
-                            <br>
-                            <a href="#" class="card-text-small-blue">E. League: a Makkelie Bayer-Roma, Atalanta-Marsiglia a Manzano</a>
+                        &nbsp
+
+                        <div style="height: 300px;background-color: lightgray;margin-bottom: 20px;">
+                            <img src="https://placehold.co/498x350/orange/white?text=Cortile+della+cavallerizza%0AUna+passeggiata+per+aria&font=Montserratg" style="height: 80%; width: 80%; margin-left: 30px;margin-bottom: 10px;margin-top: -25px">
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-
-        <!--mostrata quando schermo stretto-->
-        <div class="gallery-container" id="showCarousel1">
-            <div class="gallery blue-section" style="background-color: darkblue">
+            <!--mostrata quando schermo largo-->
+            <div class="blue-section" id="showLarge2" style="background-color: cornflowerblue">
                 <div>
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="bi bi-suit-diamond-fill" viewBox="0 0 16 16">
                         <path d="M2.45 7.4 7.2 1.067a1 1 0 0 1 1.6 0L13.55 7.4a1 1 0 0 1 0 1.2L8.8 14.933a1 1 0 0 1-1.6 0L2.45 8.6a1 1 0 0 1 0-1.2"/>
@@ -457,300 +652,306 @@
                     &nbsp;
                     <span style="font-size: 35px; font-family: 'Times New Roman';font-weight: bold; color: white"> Mantova calcio</span>
                 </div>
-
-                <div class="carousel-wrapper">
-                    <div class="row-up">
-                        <div class="carousel-up">
-                            <div class="slide-up">
-                                <div class="card-in-blue" style="width: 220px;height: 240px;">
-                                    <img src="https://placehold.co/446x250/red/white?text=Mantova+-+Cesena&font=Montserrat" class="card-img-top">
-                                    <div class="card-body" style="padding-left: 10px;padding-right: 10px">
-                                        <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// MANTOVA CALCIO</span>
-                                        <br>
-                                        <a href="#" class="card-text-small-blue">Supercoppa, Mantova beffato nel recupero: il Cesena vince 2-1 al Martelli</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="slide-up">
-                                <div class="card-in-blue" style="width: 220px;height: 240px;">
-                                    <img src="https://placehold.co/446x250/white/red?text=Squadra+di+Mantova&font=Montserrat" class="card-img-top">
-                                    <div class="card-body" style="padding-left: 10px;padding-right: 10px">
-                                        <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// MANTOVA CALCIO</span>
-                                        <br>
-                                        <a href="#" class="card-text-small-blue">Mantova, ecco le lezioni da trarre in vista della serie B dopo la gara di Supercoppa</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="slide-up">
-                                <div class="card-in-blue" style="width: 220px;height: 240px;">
-                                    <img src="https://placehold.co/446x250/white/red?text=Squadra+di+Mantova&font=Montserrat" class="card-img-top">
-                                    <div class="card-body" style="padding-left: 10px;padding-right: 10px">
-                                        <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// MANTOVA CALCIO</span>
-                                        <br>
-                                        <a href="#" class="card-text-small-blue">Mantova, ecco le lezioni da trarre in vista della serie B dopo la gara di Supercoppa</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="slide-up">
-                                <div class="card-in-blue" style="width: 220px;height: 240px;">
-                                    <img src="https://placehold.co/446x250/white/red?text=Squadra+di+Mantova&font=Montserrat" class="card-img-top">
-                                    <div class="card-body" style="padding-left: 10px;padding-right: 10px">
-                                        <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// MANTOVA CALCIO</span>
-                                        <br>
-                                        <a href="#" class="card-text-small-blue">Mantova, ecco le lezioni da trarre in vista della serie B dopo la gara di Supercoppa</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row-up">
-                        <div class="carousel-up">
-                            <div class="slide-up">
-                                <div class="card-in-blue" style="width: 220px;height: 240px;">
-                                    <img src="https://placehold.co/446x250/red/white?text=Mantova+-+Cesena&font=Montserrat" class="card-img-top">
-                                    <div class="card-body" style="padding-left: 10px;padding-right: 10px">
-                                        <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// MANTOVA CALCIO</span>
-                                        <br>
-                                        <a href="#" class="card-text-small-blue">Supercoppa, Mantova beffato nel recupero: il Cesena vince 2-1 al Martelli</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="slide-up">
-                                <div class="card-in-blue" style="width: 220px;height: 240px;">
-                                    <img src="https://placehold.co/446x250/white/red?text=Squadra+di+Mantova&font=Montserrat" class="card-img-top">
-                                    <div class="card-body" style="padding-left: 10px;padding-right: 10px">
-                                        <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// MANTOVA CALCIO</span>
-                                        <br>
-                                        <a href="#" class="card-text-small-blue">Mantova, ecco le lezioni da trarre in vista della serie B dopo la gara di Supercoppa</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="slide-up">
-                                <div class="card-in-blue" style="width: 220px;height: 240px;">
-                                    <img src="https://placehold.co/446x250/white/red?text=Squadra+di+Mantova&font=Montserrat" class="card-img-top">
-                                    <div class="card-body" style="padding-left: 10px;padding-right: 10px">
-                                        <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// MANTOVA CALCIO</span>
-                                        <br>
-                                        <a href="#" class="card-text-small-blue">Mantova, ecco le lezioni da trarre in vista della serie B dopo la gara di Supercoppa</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="slide-up">
-                                <div class="card-in-blue" style="width: 220px;height: 240px;">
-                                    <img src="https://placehold.co/446x250/white/red?text=Squadra+di+Mantova&font=Montserrat" class="card-img-top">
-                                    <div class="card-body" style="padding-left: 10px;padding-right: 10px">
-                                        <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// MANTOVA CALCIO</span>
-                                        <br>
-                                        <a href="#" class="card-text-small-blue">Mantova, ecco le lezioni da trarre in vista della serie B dopo la gara di Supercoppa</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-
-
-
-        <div class="container text-center">
-            <div class="articles" >
-                <div class="contents">
-                    <div class="card mb-3">
-                        <div class="row g-0">
-                            <div class="col-md-4">
-                                <img src="https://placehold.co/412x230/lightgreen/gray?text=Canino+vincitore&font=Montserrat" class="img-fluid" alt="canino" style="padding-right: 10px">
-                            </div>
-                            <div class="col-md-8">
-                                <span style="font-family: 'DM Sans', sans-serif; font-weight: bold"> /// ANIMALI</span>
-                                <br>
-                                <a href="#" class="card-text-small">James Bond di Monzambano vince il dog show di Zagabria</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card mb-3">
-                        <div class="row g-0">
-                            <div class="col-md-4">
-                                <img src="https://placehold.co/410x230/white/black?text=Persone&font=Montserrat" class="img-fluid" alt="persone" style="padding-right: 10px">
-                            </div>
-                            <div class="col-md-8">
-                                <span style="font-family: 'DM Sans', sans-serif; font-weight: bold"> /// </span>
-                                <br>
-                                <a href="#" class="card-text-small">A Mantova nuovo studio per eliminare gli odori</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card mb-3">
-                        <div class="row g-0">
-                            <div class="col-md-4">
-                                <img src="https://placehold.co/408x232/white/black?text=Cercasi%0APersonale&font=Montserratg" class="img-fluid" alt="" style="padding-right: 10px">
-                            </div>
-                            <div class="col-md-8">
-                                <span style="font-family: 'DM Sans', sans-serif; font-weight: bold"> /// COMPETENZE</span>
-                                <br>
-                                <a href="#" class="card-text-small">Competenze medio-basse in 9 assunzioni su 10 nel Mantovano</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card mb-3">
-                        <div class="row g-0">
-                            <div class="col-md-4">
-                                <img src="https://placehold.co/408x232/white/gold?text=Pompieri&font=Montserratg" class="img-fluid" alt="pompieri" style="padding-right: 10px">
-                            </div>
-                            <div class="col-md-8">
-                                <span style="font-family: 'DM Sans', sans-serif; font-weight: bold"> /// </span>
-                                <br>
-                                <a href="#" class="card-text-small">Incendio in una casa in viale Rimembranze a Mantova, deunciati quattro ragazzini</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card mb-3">
-                        <div class="row g-0">
-                            <div class="col-md-4">
-                                <img src="https://placehold.co/408x232/gray/black?text=Immagine+della+strada&font=Montserratg" class="img-fluid" alt="foto strada" style="padding-right: 10px">
-                            </div>
-                            <div class="col-md-8">
-                                <span style="font-family: 'DM Sans', sans-serif; font-weight: bold"> /// </span>
-                                <br>
-                                <a href="#" class="card-text-small">Perdite d'acqua tra i viali Hermada e Pasubio a Mantova: lunedì via alle riparazioni</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="sidebar">
-
-                    <div style="height: 200px;background-color: lightgray;margin-bottom: 20px;">
-                        <img src="https://placehold.co/500x418/limegreen/white?text=Info+viabilità%0APrevisioni+traffico%0AWeb+cam&font=Montserratg" style="height: 100%; width: 80%; margin-left: 30px;margin-bottom: 10px;margin-top: -25px">
-                    </div>
-                    &nbsp
-
-                    <div style="height: 300px;background-color: lightgray;margin-bottom: 20px;">
-                        <img src="https://placehold.co/498x350/orange/white?text=Cortile+della+cavallerizza%0AUna+passeggiata+per+aria&font=Montserratg" style="height: 80%; width: 80%; margin-left: 30px;margin-bottom: 10px;margin-top: -25px">
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!--mostrata quando schermo largo-->
-        <div class="blue-section" id="showLarge2" style="background-color: cornflowerblue">
-            <div>
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="bi bi-suit-diamond-fill" viewBox="0 0 16 16">
-                    <path d="M2.45 7.4 7.2 1.067a1 1 0 0 1 1.6 0L13.55 7.4a1 1 0 0 1 0 1.2L8.8 14.933a1 1 0 0 1-1.6 0L2.45 8.6a1 1 0 0 1 0-1.2"/>
-                </svg>
                 &nbsp;
-                <span style="font-size: 35px; font-family: 'Times New Roman';font-weight: bold; color: white"> Mantova calcio</span>
-            </div>
-            &nbsp;
 
-            <div class="row row-cols-1 row-cols-md-4 g-4">
-                <div class="col">
-                    <div class="card-in-blue" style="width: 220px;height: 240px;">
-                        <img src="https://placehold.co/446x250/green/white?text=Mantova+-+Cesena&font=Montserrat" class="card-img-top">
-                        <div class="card-body" style="padding-left: 10px;padding-right: 10px">
-                            <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// MANTOVA CALCIO</span>
-                            <br>
-                            <a href="#" class="card-text-small-blue">Studio Biancorosso: Mantova-Cesena 1-2, Supercoppa con beffa</a>
+                <div class="row row-cols-1 row-cols-md-4 g-4">
+                    <div class="col">
+                        <div class="card-in-blue">
+                            <img src="https://placehold.co/446x250/green/white?text=Mantova+-+Cesena&font=Montserrat" class="card-img-top">
+                            <div class="card-body" style="padding-left: 10px;padding-right: 10px">
+                                <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// MANTOVA CALCIO</span>
+                                <br>
+                                <a href="#" class="card-text-small-blue">Studio Biancorosso: Mantova-Cesena 1-2, Supercoppa con beffa</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card-in-blue" >
+                            <img src="https://placehold.co/446x250/white/red?text=Squadra+di+Mantova&font=Montserrat" class="card-img-top">
+                            <div class="card-body" style="padding-left: 10px;padding-right: 10px">
+                                <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// MANTOVA CALCIO</span>
+                                <br>
+                                <a href="#" class="card-text-small-blue">Mantova, ecco le lezioni da trarre in vista della serie B dopo la gara di Supercoppa</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card-in-blue" >
+                            <img src="https://placehold.co/446x250/white/red?text=Calciatore+del+Mantova&font=Montserrat" class="card-img-top">
+                            <div class="card-body" style="padding-left: 10px;padding-right: 10px">
+                                <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// MANTOVA CALCIO</span>
+                                <br>
+                                <a href="#" class="card-text-small-blue">Il Mantova dà una lezione di calcio, ma al Martelli fa festa il Cesena</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card-in-blue" >
+                            <img src="https://placehold.co/446x250/red/white?text=Mantova+-+Cesena&font=Montserrat" class="card-img-top">
+                            <div class="card-body" style="padding-left: 10px;padding-right: 10px">
+                                <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// MANTOVA CALCIO</span>
+                                <br>
+                                <a href="#" class="card-text-small-blue">Supercoppa, Mantova beffato nel recupero: il Cesena vince 2-1 al Martelli</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col">
-                    <div class="card-in-blue" style="width: 220px;height: 240px;">
-                        <img src="https://placehold.co/446x250/white/red?text=Squadra+di+Mantova&font=Montserrat" class="card-img-top">
-                        <div class="card-body" style="padding-left: 10px;padding-right: 10px">
-                            <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// MANTOVA CALCIO</span>
-                            <br>
-                            <a href="#" class="card-text-small-blue">Mantova, ecco le lezioni da trarre in vista della serie B dopo la gara di Supercoppa</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card-in-blue" style="width: 220px;height: 240px;">
-                        <img src="https://placehold.co/446x250/white/red?text=Calciatore+del+Mantova&font=Montserrat" class="card-img-top">
-                        <div class="card-body" style="padding-left: 10px;padding-right: 10px">
-                            <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// MANTOVA CALCIO</span>
-                            <br>
-                            <a href="#" class="card-text-small-blue">Il Mantova dà una lezione di calcio, ma al Martelli fa festa il Cesena</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card-in-blue" style="width: 220px;height: 240px;">
-                        <img src="https://placehold.co/446x250/red/white?text=Mantova+-+Cesena&font=Montserrat" class="card-img-top">
-                        <div class="card-body" style="padding-left: 10px;padding-right: 10px">
-                            <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// MANTOVA CALCIO</span>
-                            <br>
-                            <a href="#" class="card-text-small-blue">Supercoppa, Mantova beffato nel recupero: il Cesena vince 2-1 al Martelli</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
-            &nbsp;&nbsp;
+                &nbsp;&nbsp;
 
-            <div>
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="bi bi-suit-diamond-fill" viewBox="0 0 16 16">
-                    <path d="M2.45 7.4 7.2 1.067a1 1 0 0 1 1.6 0L13.55 7.4a1 1 0 0 1 0 1.2L8.8 14.933a1 1 0 0 1-1.6 0L2.45 8.6a1 1 0 0 1 0-1.2"/>
-                </svg>
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="bi bi-suit-diamond-fill" viewBox="0 0 16 16">
+                        <path d="M2.45 7.4 7.2 1.067a1 1 0 0 1 1.6 0L13.55 7.4a1 1 0 0 1 0 1.2L8.8 14.933a1 1 0 0 1-1.6 0L2.45 8.6a1 1 0 0 1 0-1.2"/>
+                    </svg>
+                    &nbsp;
+                    <span style="font-size: 35px; font-family: 'Times New Roman';font-weight: bold; color: white">Sport</span>
+                </div>
                 &nbsp;
-                <span style="font-size: 35px; font-family: 'Times New Roman';font-weight: bold; color: white">Sport</span>
-            </div>
-            &nbsp;
 
-            <div class="row row-cols-1 row-cols-md-4 g-4">
-                <div class="col">
-                    <div class="card-in-blue" style="width: 220px;height: 240px;">
-                        <img src="https://placehold.co/446x250/white/black?text=Giro+d'+Italia&font=Montserrat" class="card-img-top">
-                        <div class="card-body" style="padding-left: 10px;padding-right: 10px">
-                            <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// SPORT</span>
-                            <br>
-                            <a href="#" class="card-text-small-blue">Giro d'Italia presentato anche a Mantova: "E non ci fermiamo"</a>
+                <div class="row row-cols-1 row-cols-md-4 g-4">
+                    <div class="col">
+                        <div class="card-in-blue" >
+                            <img src="https://placehold.co/446x250/white/black?text=Giro+d'+Italia&font=Montserrat" class="card-img-top">
+                            <div class="card-body" style="padding-left: 10px;padding-right: 10px">
+                                <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// SPORT</span>
+                                <br>
+                                <a href="#" class="card-text-small-blue">Giro d'Italia presentato anche a Mantova: "E non ci fermiamo"</a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card-in-blue" style="width: 220px;height: 240px;">
-                        <img src="https://placehold.co/446x250/white/black?text=Foto+del+Calciatore&font=Montserrat" class="card-img-top">
-                        <div class="card-body" style="padding-left: 10px;padding-right: 10px">
-                            <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// CALCIO</span>
-                            <br>
-                            <a href="#" class="card-text-small-blue"> Debenedetti e il primo gol con il Mantova nella sconfitta con il Cesena</a>
+                    <div class="col">
+                        <div class="card-in-blue" >
+                            <img src="https://placehold.co/446x250/white/black?text=Foto+del+Calciatore&font=Montserrat" class="card-img-top">
+                            <div class="card-body" style="padding-left: 10px;padding-right: 10px">
+                                <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// CALCIO</span>
+                                <br>
+                                <a href="#" class="card-text-small-blue"> Debenedetti e il primo gol con il Mantova nella sconfitta con il Cesena</a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card-in-blue" style="width: 220px;height: 240px;">
-                        <img src="https://placehold.co/446x250/orange/white?text=Tennista+donna&font=Montserrat" class="card-img-top">
-                        <div class="card-body" style="padding-left: 10px;padding-right: 10px">
-                            <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// SPORT NAZIONALE</span>
-                            <br>
-                            <a href="#" class="card-text-small-blue">Internazionali: Paolini 'pressioni? Voglio godermi il momento'</a>
+                    <div class="col">
+                        <div class="card-in-blue" >
+                            <img src="https://placehold.co/446x250/orange/white?text=Tennista+donna&font=Montserrat" class="card-img-top">
+                            <div class="card-body" style="padding-left: 10px;padding-right: 10px">
+                                <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// SPORT NAZIONALE</span>
+                                <br>
+                                <a href="#" class="card-text-small-blue">Internazionali: Paolini 'pressioni? Voglio godermi il momento'</a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card-in-blue" style="width: 220px;height: 240px;">
-                        <img src="https://placehold.co/446x250/white/red?text=Immagine+della+partita&font=Montserrat" class="card-img-top">
-                        <div class="card-body" style="padding-left: 10px;padding-right: 10px">
-                            <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// SPORT NAZIONALE</span>
-                            <br>
-                            <a href="#" class="card-text-small-blue">E. League: a Makkelie Bayer-Roma, Atalanta-Marsiglia a Manzano</a>
+                    <div class="col">
+                        <div class="card-in-blue" >
+                            <img src="https://placehold.co/446x250/white/red?text=Immagine+della+partita&font=Montserrat" class="card-img-top">
+                            <div class="card-body" style="padding-left: 10px;padding-right: 10px">
+                                <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// SPORT NAZIONALE</span>
+                                <br>
+                                <a href="#" class="card-text-small-blue">E. League: a Makkelie Bayer-Roma, Atalanta-Marsiglia a Manzano</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <!--mostra quando schermo sretto-->
-        <div class="gallery-container" id="showCarousel2">
-            <div class="gallery blue-section" style="background-color: cornflowerblue">
+            <!--mostra quando schermo sretto-->
+            <div class="gallery-container" id="showCarousel2">
+                <div class="gallery blue-section" style="background-color: cornflowerblue">
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="bi bi-suit-diamond-fill" viewBox="0 0 16 16">
+                            <path d="M2.45 7.4 7.2 1.067a1 1 0 0 1 1.6 0L13.55 7.4a1 1 0 0 1 0 1.2L8.8 14.933a1 1 0 0 1-1.6 0L2.45 8.6a1 1 0 0 1 0-1.2"/>
+                        </svg>
+                        &nbsp;
+                        <span style="font-size: 35px; font-family: 'Times New Roman';font-weight: bold; color: white"> Mantova calcio</span>
+                    </div>
+
+                    <div class="carousel-wrapper">
+                        <div class="row-up">
+                            <div class="carousel-up">
+                                <div class="slide-up">
+                                    <div class="card-in-blue" >
+                                        <img src="https://placehold.co/446x250/white/black?text=Mantova+-+Cesena&font=Montserrat" class="card-img-top">
+                                        <div class="card-body" style="padding-left: 10px;padding-right: 10px">
+                                            <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// MANTOVA CALCIO</span>
+                                            <br>
+                                            <a href="#" class="card-text-small-blue">Supercoppa, Mantova beffato nel recupero: il Cesena vince 2-1 al Martelli</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slide-up">
+                                    <div class="card-in-blue" >
+                                        <img src="https://placehold.co/446x250/white/red?text=Squadra+di+Mantova&font=Montserrat" class="card-img-top">
+                                        <div class="card-body" style="padding-left: 10px;padding-right: 10px">
+                                            <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// MANTOVA CALCIO</span>
+                                            <br>
+                                            <a href="#" class="card-text-small-blue">Mantova, ecco le lezioni da trarre in vista della serie B dopo la gara di Supercoppa</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slide-up">
+                                    <div class="card-in-blue" >
+                                        <img src="https://placehold.co/446x250/white/red?text=Squadra+di+Mantova&font=Montserrat" class="card-img-top">
+                                        <div class="card-body" style="padding-left: 10px;padding-right: 10px">
+                                            <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// MANTOVA CALCIO</span>
+                                            <br>
+                                            <a href="#" class="card-text-small-blue">Mantova, ecco le lezioni da trarre in vista della serie B dopo la gara di Supercoppa</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slide-up">
+                                    <div class="card-in-blue" >
+                                        <img src="https://placehold.co/446x250/white/red?text=Squadra+di+Mantova&font=Montserrat" class="card-img-top">
+                                        <div class="card-body" style="padding-left: 10px;padding-right: 10px">
+                                            <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// MANTOVA CALCIO</span>
+                                            <br>
+                                            <a href="#" class="card-text-small-blue">Mantova, ecco le lezioni da trarre in vista della serie B dopo la gara di Supercoppa</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="bi bi-suit-diamond-fill" viewBox="0 0 16 16">
+                                <path d="M2.45 7.4 7.2 1.067a1 1 0 0 1 1.6 0L13.55 7.4a1 1 0 0 1 0 1.2L8.8 14.933a1 1 0 0 1-1.6 0L2.45 8.6a1 1 0 0 1 0-1.2"/>
+                            </svg>
+                            &nbsp;
+                            <span style="font-size: 35px; font-family: 'Times New Roman';font-weight: bold; color: white">Sport</span>
+                        </div>
+
+                        <div class="row-up">
+                            <div class="carousel-up">
+                                <div class="slide-up">
+                                    <div class="card-in-blue" >
+                                        <img src="https://placehold.co/446x250/gold/white?text=Mantova+-+Cesena&font=Montserrat" class="card-img-top">
+                                        <div class="card-body" style="padding-left: 10px;padding-right: 10px">
+                                            <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// MANTOVA CALCIO</span>
+                                            <br>
+                                            <a href="#" class="card-text-small-blue">Supercoppa, Mantova beffato nel recupero: il Cesena vince 2-1 al Martelli</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slide-up">
+                                    <div class="card-in-blue" >
+                                        <img src="https://placehold.co/446x250/white/red?text=Squadra+di+Mantova&font=Montserrat" class="card-img-top">
+                                        <div class="card-body" style="padding-left: 10px;padding-right: 10px">
+                                            <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// MANTOVA CALCIO</span>
+                                            <br>
+                                            <a href="#" class="card-text-small-blue">Mantova, ecco le lezioni da trarre in vista della serie B dopo la gara di Supercoppa</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slide-up">
+                                    <div class="card-in-blue" >
+                                        <img src="https://placehold.co/446x250/white/red?text=Squadra+di+Mantova&font=Montserrat" class="card-img-top">
+                                        <div class="card-body" style="padding-left: 10px;padding-right: 10px">
+                                            <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// MANTOVA CALCIO</span>
+                                            <br>
+                                            <a href="#" class="card-text-small-blue">Mantova, ecco le lezioni da trarre in vista della serie B dopo la gara di Supercoppa</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slide-up">
+                                    <div class="card-in-blue" >
+                                        <img src="https://placehold.co/446x250/white/red?text=Squadra+di+Mantova&font=Montserrat" class="card-img-top">
+                                        <div class="card-body" style="padding-left: 10px;padding-right: 10px">
+                                            <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// MANTOVA CALCIO</span>
+                                            <br>
+                                            <a href="#" class="card-text-small-blue">Mantova, ecco le lezioni da trarre in vista della serie B dopo la gara di Supercoppa</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="container text-center">
+                <div class="articles" >
+                    <div class="contents">
+                        <div class="card mb-3">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="https://placehold.co/412x230/lightgreen/gray?text=Canino+vincitore&font=Montserrat" class="img-fluid" alt="canino" style="padding-right: 10px">
+                                </div>
+                                <div class="col-md-8">
+                                    <span style="font-family: 'DM Sans', sans-serif; font-weight: bold"> /// ANIMALI</span>
+                                    <br>
+                                    <a href="#" class="card-text-small">James Bond di Monzambano vince il dog show di Zagabria</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card mb-3">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="https://placehold.co/410x230/white/black?text=Persone&font=Montserrat" class="img-fluid" alt="persone" style="padding-right: 10px">
+                                </div>
+                                <div class="col-md-8">
+                                    <span style="font-family: 'DM Sans', sans-serif; font-weight: bold"> /// </span>
+                                    <br>
+                                    <a href="#" class="card-text-small">A Mantova nuovo studio per eliminare gli odori</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card mb-3">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="https://placehold.co/408x232/white/black?text=Cercasi%0APersonale&font=Montserratg" class="img-fluid" alt="" style="padding-right: 10px">
+                                </div>
+                                <div class="col-md-8">
+                                    <span style="font-family: 'DM Sans', sans-serif; font-weight: bold"> /// COMPETENZE</span>
+                                    <br>
+                                    <a href="#" class="card-text-small">Competenze medio-basse in 9 assunzioni su 10 nel Mantovano</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card mb-3">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="https://placehold.co/408x232/white/gold?text=Pompieri&font=Montserratg" class="img-fluid" alt="pompieri" style="padding-right: 10px">
+                                </div>
+                                <div class="col-md-8">
+                                    <span style="font-family: 'DM Sans', sans-serif; font-weight: bold"> /// </span>
+                                    <br>
+                                    <a href="#" class="card-text-small">Incendio in una casa in viale Rimembranze a Mantova, deunciati quattro ragazzini</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card mb-3">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="https://placehold.co/408x232/gray/black?text=Immagine+della+strada&font=Montserratg" class="img-fluid" alt="foto strada" style="padding-right: 10px">
+                                </div>
+                                <div class="col-md-8">
+                                    <span style="font-family: 'DM Sans', sans-serif; font-weight: bold"> /// </span>
+                                    <br>
+                                    <a href="#" class="card-text-small">Perdite d'acqua tra i viali Hermada e Pasubio a Mantova: lunedì via alle riparazioni</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sidebar">
+
+                        <div style="height: 200px;background-color: lightgray;margin-bottom: 20px;">
+                            <img src="https://placehold.co/500x418/limegreen/white?text=Info+viabilità%0APrevisioni+traffico%0AWeb+cam&font=Montserratg" style="height: 100%; width: 80%; margin-left: 30px;margin-bottom: 10px;margin-top: -25px">
+                        </div>
+                        &nbsp;
+
+                        <div style="height: 300px;background-color: lightgray;margin-bottom: 20px;">
+                            <img src="https://placehold.co/498x350/orange/white?text=Cortile+della+cavallerizza%0AUna+passeggiata+per+aria&font=Montserratg" style="height: 80%; width: 80%; margin-left: 30px;margin-bottom: 10px;margin-top: -25px">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!--mostrata quando schermo largo-->
+            <div class="blue-section" id="showLarge3" style="background-color: darkblue">
                 <div>
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="bi bi-suit-diamond-fill" viewBox="0 0 16 16">
                         <path d="M2.45 7.4 7.2 1.067a1 1 0 0 1 1.6 0L13.55 7.4a1 1 0 0 1 0 1.2L8.8 14.933a1 1 0 0 1-1.6 0L2.45 8.6a1 1 0 0 1 0-1.2"/>
@@ -758,391 +959,210 @@
                     &nbsp;
                     <span style="font-size: 35px; font-family: 'Times New Roman';font-weight: bold; color: white"> Mantova calcio</span>
                 </div>
-
-                <div class="carousel-wrapper">
-                    <div class="row-up">
-                        <div class="carousel-up">
-                            <div class="slide-up">
-                                <div class="card-in-blue" style="width: 220px;height: 240px;">
-                                    <img src="https://placehold.co/446x250/white/black?text=Mantova+-+Cesena&font=Montserrat" class="card-img-top">
-                                    <div class="card-body" style="padding-left: 10px;padding-right: 10px">
-                                        <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// MANTOVA CALCIO</span>
-                                        <br>
-                                        <a href="#" class="card-text-small-blue">Supercoppa, Mantova beffato nel recupero: il Cesena vince 2-1 al Martelli</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="slide-up">
-                                <div class="card-in-blue" style="width: 220px;height: 240px;">
-                                    <img src="https://placehold.co/446x250/white/red?text=Squadra+di+Mantova&font=Montserrat" class="card-img-top">
-                                    <div class="card-body" style="padding-left: 10px;padding-right: 10px">
-                                        <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// MANTOVA CALCIO</span>
-                                        <br>
-                                        <a href="#" class="card-text-small-blue">Mantova, ecco le lezioni da trarre in vista della serie B dopo la gara di Supercoppa</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="slide-up">
-                                <div class="card-in-blue" style="width: 220px;height: 240px;">
-                                    <img src="https://placehold.co/446x250/white/red?text=Squadra+di+Mantova&font=Montserrat" class="card-img-top">
-                                    <div class="card-body" style="padding-left: 10px;padding-right: 10px">
-                                        <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// MANTOVA CALCIO</span>
-                                        <br>
-                                        <a href="#" class="card-text-small-blue">Mantova, ecco le lezioni da trarre in vista della serie B dopo la gara di Supercoppa</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="slide-up">
-                                <div class="card-in-blue" style="width: 220px;height: 240px;">
-                                    <img src="https://placehold.co/446x250/white/red?text=Squadra+di+Mantova&font=Montserrat" class="card-img-top">
-                                    <div class="card-body" style="padding-left: 10px;padding-right: 10px">
-                                        <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// MANTOVA CALCIO</span>
-                                        <br>
-                                        <a href="#" class="card-text-small-blue">Mantova, ecco le lezioni da trarre in vista della serie B dopo la gara di Supercoppa</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row-up">
-                        <div class="carousel-up">
-                            <div class="slide-up">
-                                <div class="card-in-blue" style="width: 220px;height: 240px;">
-                                    <img src="https://placehold.co/446x250/gold/white?text=Mantova+-+Cesena&font=Montserrat" class="card-img-top">
-                                    <div class="card-body" style="padding-left: 10px;padding-right: 10px">
-                                        <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// MANTOVA CALCIO</span>
-                                        <br>
-                                        <a href="#" class="card-text-small-blue">Supercoppa, Mantova beffato nel recupero: il Cesena vince 2-1 al Martelli</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="slide-up">
-                                <div class="card-in-blue" style="width: 220px;height: 240px;">
-                                    <img src="https://placehold.co/446x250/white/red?text=Squadra+di+Mantova&font=Montserrat" class="card-img-top">
-                                    <div class="card-body" style="padding-left: 10px;padding-right: 10px">
-                                        <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// MANTOVA CALCIO</span>
-                                        <br>
-                                        <a href="#" class="card-text-small-blue">Mantova, ecco le lezioni da trarre in vista della serie B dopo la gara di Supercoppa</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="slide-up">
-                                <div class="card-in-blue" style="width: 220px;height: 240px;">
-                                    <img src="https://placehold.co/446x250/white/red?text=Squadra+di+Mantova&font=Montserrat" class="card-img-top">
-                                    <div class="card-body" style="padding-left: 10px;padding-right: 10px">
-                                        <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// MANTOVA CALCIO</span>
-                                        <br>
-                                        <a href="#" class="card-text-small-blue">Mantova, ecco le lezioni da trarre in vista della serie B dopo la gara di Supercoppa</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="slide-up">
-                                <div class="card-in-blue" style="width: 220px;height: 240px;">
-                                    <img src="https://placehold.co/446x250/white/red?text=Squadra+di+Mantova&font=Montserrat" class="card-img-top">
-                                    <div class="card-body" style="padding-left: 10px;padding-right: 10px">
-                                        <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// MANTOVA CALCIO</span>
-                                        <br>
-                                        <a href="#" class="card-text-small-blue">Mantova, ecco le lezioni da trarre in vista della serie B dopo la gara di Supercoppa</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="container text-center">
-            <div class="articles" >
-                <div class="contents">
-                    <div class="card mb-3">
-                        <div class="row g-0">
-                            <div class="col-md-4">
-                                <img src="https://placehold.co/412x230/lightgreen/gray?text=Canino+vincitore&font=Montserrat" class="img-fluid" alt="canino" style="padding-right: 10px">
-                            </div>
-                            <div class="col-md-8">
-                                <span style="font-family: 'DM Sans', sans-serif; font-weight: bold"> /// ANIMALI</span>
-                                <br>
-                                <a href="#" class="card-text-small">James Bond di Monzambano vince il dog show di Zagabria</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card mb-3">
-                        <div class="row g-0">
-                            <div class="col-md-4">
-                                <img src="https://placehold.co/410x230/white/black?text=Persone&font=Montserrat" class="img-fluid" alt="persone" style="padding-right: 10px">
-                            </div>
-                            <div class="col-md-8">
-                                <span style="font-family: 'DM Sans', sans-serif; font-weight: bold"> /// </span>
-                                <br>
-                                <a href="#" class="card-text-small">A Mantova nuovo studio per eliminare gli odori</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card mb-3">
-                        <div class="row g-0">
-                            <div class="col-md-4">
-                                <img src="https://placehold.co/408x232/white/black?text=Cercasi%0APersonale&font=Montserratg" class="img-fluid" alt="" style="padding-right: 10px">
-                            </div>
-                            <div class="col-md-8">
-                                <span style="font-family: 'DM Sans', sans-serif; font-weight: bold"> /// COMPETENZE</span>
-                                <br>
-                                <a href="#" class="card-text-small">Competenze medio-basse in 9 assunzioni su 10 nel Mantovano</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card mb-3">
-                        <div class="row g-0">
-                            <div class="col-md-4">
-                                <img src="https://placehold.co/408x232/white/gold?text=Pompieri&font=Montserratg" class="img-fluid" alt="pompieri" style="padding-right: 10px">
-                            </div>
-                            <div class="col-md-8">
-                                <span style="font-family: 'DM Sans', sans-serif; font-weight: bold"> /// </span>
-                                <br>
-                                <a href="#" class="card-text-small">Incendio in una casa in viale Rimembranze a Mantova, deunciati quattro ragazzini</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card mb-3">
-                        <div class="row g-0">
-                            <div class="col-md-4">
-                                <img src="https://placehold.co/408x232/gray/black?text=Immagine+della+strada&font=Montserratg" class="img-fluid" alt="foto strada" style="padding-right: 10px">
-                            </div>
-                            <div class="col-md-8">
-                                <span style="font-family: 'DM Sans', sans-serif; font-weight: bold"> /// </span>
-                                <br>
-                                <a href="#" class="card-text-small">Perdite d'acqua tra i viali Hermada e Pasubio a Mantova: lunedì via alle riparazioni</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="sidebar">
-
-                    <div style="height: 200px;background-color: lightgray;margin-bottom: 20px;">
-                        <img src="https://placehold.co/500x418/limegreen/white?text=Info+viabilità%0APrevisioni+traffico%0AWeb+cam&font=Montserratg" style="height: 100%; width: 80%; margin-left: 30px;margin-bottom: 10px;margin-top: -25px">
-                    </div>
-                    &nbsp;
-
-                    <div style="height: 300px;background-color: lightgray;margin-bottom: 20px;">
-                        <img src="https://placehold.co/498x350/orange/white?text=Cortile+della+cavallerizza%0AUna+passeggiata+per+aria&font=Montserratg" style="height: 80%; width: 80%; margin-left: 30px;margin-bottom: 10px;margin-top: -25px">
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-        <!--mostrata quando schermo largo-->
-        <div class="blue-section" id="showLarge3" style="background-color: darkblue">
-            <div>
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="bi bi-suit-diamond-fill" viewBox="0 0 16 16">
-                    <path d="M2.45 7.4 7.2 1.067a1 1 0 0 1 1.6 0L13.55 7.4a1 1 0 0 1 0 1.2L8.8 14.933a1 1 0 0 1-1.6 0L2.45 8.6a1 1 0 0 1 0-1.2"/>
-                </svg>
                 &nbsp;
-                <span style="font-size: 35px; font-family: 'Times New Roman';font-weight: bold; color: white"> Mantova calcio</span>
-            </div>
-            &nbsp;
 
-            <div class="row row-cols-1 row-cols-md-4 g-4">
-                <div class="col">
-                    <div class="card-in-blue" style="width: 220px;height: 240px;">
-                        <img src="https://placehold.co/446x250/green/white?text=Mantova+-+Cesena&font=Montserrat" class="card-img-top">
-                        <div class="card-body" style="padding-left: 10px;padding-right: 10px">
-                            <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// MANTOVA CALCIO</span>
-                            <br>
-                            <a href="#" class="card-text-small-blue">Studio Biancorosso: Mantova-Cesena 1-2, Supercoppa con beffa</a>
+                <div class="row row-cols-1 row-cols-md-4 g-4">
+                    <div class="col">
+                        <div class="card-in-blue" >
+                            <img src="https://placehold.co/446x250/green/white?text=Mantova+-+Cesena&font=Montserrat" class="card-img-top">
+                            <div class="card-body" style="padding-left: 10px;padding-right: 10px">
+                                <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// MANTOVA CALCIO</span>
+                                <br>
+                                <a href="#" class="card-text-small-blue">Studio Biancorosso: Mantova-Cesena 1-2, Supercoppa con beffa</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card-in-blue" >
+                            <img src="https://placehold.co/446x250/white/red?text=Squadra+di+Mantova&font=Montserrat" class="card-img-top">
+                            <div class="card-body" style="padding-left: 10px;padding-right: 10px">
+                                <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// MANTOVA CALCIO</span>
+                                <br>
+                                <a href="#" class="card-text-small-blue">Mantova, ecco le lezioni da trarre in vista della serie B dopo la gara di Supercoppa</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card-in-blue" >
+                            <img src="https://placehold.co/446x250/white/red?text=Calciatore+del+Mantova&font=Montserrat" class="card-img-top">
+                            <div class="card-body" style="padding-left: 10px;padding-right: 10px">
+                                <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// MANTOVA CALCIO</span>
+                                <br>
+                                <a href="#" class="card-text-small-blue">Il Mantova dà una lezione di calcio, ma al Martelli fa festa il Cesena</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card-in-blue" >
+                            <img src="https://placehold.co/446x250/red/white?text=Mantova+-+Cesena&font=Montserrat" class="card-img-top">
+                            <div class="card-body" style="padding-left: 10px;padding-right: 10px">
+                                <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// MANTOVA CALCIO</span>
+                                <br>
+                                <a href="#" class="card-text-small-blue">Supercoppa, Mantova beffato nel recupero: il Cesena vince 2-1 al Martelli</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col">
-                    <div class="card-in-blue" style="width: 220px;height: 240px;">
-                        <img src="https://placehold.co/446x250/white/red?text=Squadra+di+Mantova&font=Montserrat" class="card-img-top">
-                        <div class="card-body" style="padding-left: 10px;padding-right: 10px">
-                            <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// MANTOVA CALCIO</span>
-                            <br>
-                            <a href="#" class="card-text-small-blue">Mantova, ecco le lezioni da trarre in vista della serie B dopo la gara di Supercoppa</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card-in-blue" style="width: 220px;height: 240px;">
-                        <img src="https://placehold.co/446x250/white/red?text=Calciatore+del+Mantova&font=Montserrat" class="card-img-top">
-                        <div class="card-body" style="padding-left: 10px;padding-right: 10px">
-                            <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// MANTOVA CALCIO</span>
-                            <br>
-                            <a href="#" class="card-text-small-blue">Il Mantova dà una lezione di calcio, ma al Martelli fa festa il Cesena</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card-in-blue" style="width: 220px;height: 240px;">
-                        <img src="https://placehold.co/446x250/red/white?text=Mantova+-+Cesena&font=Montserrat" class="card-img-top">
-                        <div class="card-body" style="padding-left: 10px;padding-right: 10px">
-                            <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// MANTOVA CALCIO</span>
-                            <br>
-                            <a href="#" class="card-text-small-blue">Supercoppa, Mantova beffato nel recupero: il Cesena vince 2-1 al Martelli</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
-            &nbsp;&nbsp;
+                &nbsp;&nbsp;
 
-            <div>
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="bi bi-suit-diamond-fill" viewBox="0 0 16 16">
-                    <path d="M2.45 7.4 7.2 1.067a1 1 0 0 1 1.6 0L13.55 7.4a1 1 0 0 1 0 1.2L8.8 14.933a1 1 0 0 1-1.6 0L2.45 8.6a1 1 0 0 1 0-1.2"/>
-                </svg>
-                &nbsp;
-                <span style="font-size: 35px; font-family: 'Times New Roman';font-weight: bold; color: white">Sport</span>
-            </div>
-            &nbsp;
-
-            <div class="row row-cols-1 row-cols-md-4 g-4">
-                <div class="col">
-                    <div class="card-in-blue" style="width: 220px;height: 240px;">
-                        <img src="https://placehold.co/446x250/white/black?text=Giro+d'+Italia&font=Montserrat" class="card-img-top">
-                        <div class="card-body" style="padding-left: 10px;padding-right: 10px">
-                            <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// SPORT</span>
-                            <br>
-                            <a href="#" class="card-text-small-blue">Giro d'Italia presentato anche a Mantova: "E non ci fermiamo"</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card-in-blue" style="width: 220px;height: 240px;">
-                        <img src="https://placehold.co/446x250/white/black?text=Foto+del+Calciatore&font=Montserrat" class="card-img-top">
-                        <div class="card-body" style="padding-left: 10px;padding-right: 10px">
-                            <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// CALCIO</span>
-                            <br>
-                            <a href="#" class="card-text-small-blue"> Debenedetti e il primo gol con il Mantova nella sconfitta con il Cesena</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card-in-blue" style="width: 220px;height: 240px;">
-                        <img src="https://placehold.co/446x250/orange/white?text=Tennista+donna&font=Montserrat" class="card-img-top">
-                        <div class="card-body" style="padding-left: 10px;padding-right: 10px">
-                            <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// SPORT NAZIONALE</span>
-                            <br>
-                            <a href="#" class="card-text-small-blue">Internazionali: Paolini 'pressioni? Voglio godermi il momento'</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card-in-blue" style="width: 220px;height: 240px;">
-                        <img src="https://placehold.co/446x250/white/red?text=Immagine+della+partita&font=Montserrat" class="card-img-top">
-                        <div class="card-body" style="padding-left: 10px;padding-right: 10px">
-                            <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// SPORT NAZIONALE</span>
-                            <br>
-                            <a href="#" class="card-text-small-blue">E. League: a Makkelie Bayer-Roma, Atalanta-Marsiglia a Manzano</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!--mostra quando schermo sretto-->
-        <div class="gallery-container" id="showCarousel3">
-            <div class="gallery blue-section" style="background-color: darkblue">
                 <div>
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="bi bi-suit-diamond-fill" viewBox="0 0 16 16">
                         <path d="M2.45 7.4 7.2 1.067a1 1 0 0 1 1.6 0L13.55 7.4a1 1 0 0 1 0 1.2L8.8 14.933a1 1 0 0 1-1.6 0L2.45 8.6a1 1 0 0 1 0-1.2"/>
                     </svg>
                     &nbsp;
-                    <span style="font-size: 35px; font-family: 'Times New Roman';font-weight: bold; color: white"> Mantova calcio</span>
+                    <span style="font-size: 35px; font-family: 'Times New Roman';font-weight: bold; color: white">Sport</span>
                 </div>
+                &nbsp;
 
-                <div class="carousel-wrapper">
-                    <div class="row-up">
-                        <div class="carousel-up">
-                            <div class="slide-up">
-                                <div class="card-in-blue" style="width: 220px;height: 240px;">
-                                    <img src="https://placehold.co/446x250/white/black?text=Mantova+-+Cesena&font=Montserrat" class="card-img-top">
-                                    <div class="card-body" style="padding-left: 10px;padding-right: 10px">
-                                        <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// MANTOVA CALCIO</span>
-                                        <br>
-                                        <a href="#" class="card-text-small-blue">Supercoppa, Mantova beffato nel recupero: il Cesena vince 2-1 al Martelli</a>
+                <div class="row row-cols-1 row-cols-md-4 g-4">
+                    <div class="col">
+                        <div class="card-in-blue" >
+                            <img src="https://placehold.co/446x250/white/black?text=Giro+d'+Italia&font=Montserrat" class="card-img-top">
+                            <div class="card-body" style="padding-left: 10px;padding-right: 10px">
+                                <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// SPORT</span>
+                                <br>
+                                <a href="#" class="card-text-small-blue">Giro d'Italia presentato anche a Mantova: "E non ci fermiamo"</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card-in-blue" >
+                            <img src="https://placehold.co/446x250/white/black?text=Foto+del+Calciatore&font=Montserrat" class="card-img-top">
+                            <div class="card-body" style="padding-left: 10px;padding-right: 10px">
+                                <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// CALCIO</span>
+                                <br>
+                                <a href="#" class="card-text-small-blue"> Debenedetti e il primo gol con il Mantova nella sconfitta con il Cesena</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card-in-blue" >
+                            <img src="https://placehold.co/446x250/orange/white?text=Tennista+donna&font=Montserrat" class="card-img-top">
+                            <div class="card-body" style="padding-left: 10px;padding-right: 10px">
+                                <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// SPORT NAZIONALE</span>
+                                <br>
+                                <a href="#" class="card-text-small-blue">Internazionali: Paolini 'pressioni? Voglio godermi il momento'</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card-in-blue" >
+                            <img src="https://placehold.co/446x250/white/red?text=Immagine+della+partita&font=Montserrat" class="card-img-top">
+                            <div class="card-body" style="padding-left: 10px;padding-right: 10px">
+                                <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// SPORT NAZIONALE</span>
+                                <br>
+                                <a href="#" class="card-text-small-blue">E. League: a Makkelie Bayer-Roma, Atalanta-Marsiglia a Manzano</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--mostra quando schermo sretto-->
+            <div class="gallery-container" id="showCarousel3">
+                <div class="gallery blue-section" style="background-color: darkblue">
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="bi bi-suit-diamond-fill" viewBox="0 0 16 16">
+                            <path d="M2.45 7.4 7.2 1.067a1 1 0 0 1 1.6 0L13.55 7.4a1 1 0 0 1 0 1.2L8.8 14.933a1 1 0 0 1-1.6 0L2.45 8.6a1 1 0 0 1 0-1.2"/>
+                        </svg>
+                        &nbsp;
+                        <span style="font-size: 35px; font-family: 'Times New Roman';font-weight: bold; color: white"> Mantova calcio</span>
+                    </div>
+
+                    <div class="carousel-wrapper">
+                        <div class="row-up">
+                            <div class="carousel-up">
+                                <div class="slide-up">
+                                    <div class="card-in-blue">
+                                        <img src="https://placehold.co/446x250/white/black?text=Mantova+-+Cesena&font=Montserrat" class="card-img-top">
+                                        <div class="card-body" style="padding-left: 10px;padding-right: 10px">
+                                            <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// MANTOVA CALCIO</span>
+                                            <br>
+                                            <a href="#" class="card-text-small-blue">Supercoppa, Mantova beffato nel recupero: il Cesena vince 2-1 al Martelli</a>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="slide-up">
-                                <div class="card-in-blue" style="width: 220px;height: 240px;">
-                                    <img src="https://placehold.co/446x250/white/red?text=Squadra+di+Mantova&font=Montserrat" class="card-img-top">
-                                    <div class="card-body" style="padding-left: 10px;padding-right: 10px">
-                                        <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// MANTOVA CALCIO</span>
-                                        <br>
-                                        <a href="#" class="card-text-small-blue">Mantova, ecco le lezioni da trarre in vista della serie B dopo la gara di Supercoppa</a>
+                                <div class="slide-up">
+                                    <div class="card-in-blue" >
+                                        <img src="https://placehold.co/446x250/white/red?text=Squadra+di+Mantova&font=Montserrat" class="card-img-top">
+                                        <div class="card-body" style="padding-left: 10px;padding-right: 10px">
+                                            <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// MANTOVA CALCIO</span>
+                                            <br>
+                                            <a href="#" class="card-text-small-blue">Mantova, ecco le lezioni da trarre in vista della serie B dopo la gara di Supercoppa</a>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="slide-up">
-                                <div class="card-in-blue" style="width: 220px;height: 240px;">
-                                    <img src="https://placehold.co/446x250/white/red?text=Squadra+di+Mantova&font=Montserrat" class="card-img-top">
-                                    <div class="card-body" style="padding-left: 10px;padding-right: 10px">
-                                        <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// MANTOVA CALCIO</span>
-                                        <br>
-                                        <a href="#" class="card-text-small-blue">Mantova, ecco le lezioni da trarre in vista della serie B dopo la gara di Supercoppa</a>
+                                <div class="slide-up">
+                                    <div class="card-in-blue" >
+                                        <img src="https://placehold.co/446x250/white/red?text=Squadra+di+Mantova&font=Montserrat" class="card-img-top">
+                                        <div class="card-body" style="padding-left: 10px;padding-right: 10px">
+                                            <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// MANTOVA CALCIO</span>
+                                            <br>
+                                            <a href="#" class="card-text-small-blue">Mantova, ecco le lezioni da trarre in vista della serie B dopo la gara di Supercoppa</a>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="slide-up">
-                                <div class="card-in-blue" style="width: 220px;height: 240px;">
-                                    <img src="https://placehold.co/446x250/white/red?text=Squadra+di+Mantova&font=Montserrat" class="card-img-top">
-                                    <div class="card-body" style="padding-left: 10px;padding-right: 10px">
-                                        <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// MANTOVA CALCIO</span>
-                                        <br>
-                                        <a href="#" class="card-text-small-blue">Mantova, ecco le lezioni da trarre in vista della serie B dopo la gara di Supercoppa</a>
+                                <div class="slide-up">
+                                    <div class="card-in-blue" >
+                                        <img src="https://placehold.co/446x250/white/red?text=Squadra+di+Mantova&font=Montserrat" class="card-img-top">
+                                        <div class="card-body" style="padding-left: 10px;padding-right: 10px">
+                                            <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// MANTOVA CALCIO</span>
+                                            <br>
+                                            <a href="#" class="card-text-small-blue">Mantova, ecco le lezioni da trarre in vista della serie B dopo la gara di Supercoppa</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="bi bi-suit-diamond-fill" viewBox="0 0 16 16">
+                                <path d="M2.45 7.4 7.2 1.067a1 1 0 0 1 1.6 0L13.55 7.4a1 1 0 0 1 0 1.2L8.8 14.933a1 1 0 0 1-1.6 0L2.45 8.6a1 1 0 0 1 0-1.2"/>
+                            </svg>
+                            &nbsp;
+                            <span style="font-size: 35px; font-family: 'Times New Roman';font-weight: bold; color: white">Sport</span>
+                        </div>
 
-                    <div class="row-up">
-                        <div class="carousel-up">
-                            <div class="slide-up">
-                                <div class="card-in-blue" style="width: 220px;height: 240px;">
-                                    <img src="https://placehold.co/446x250/lightgreen/white?text=Mantova+-+Cesena&font=Montserrat" class="card-img-top">
-                                    <div class="card-body" style="padding-left: 10px;padding-right: 10px">
-                                        <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// MANTOVA CALCIO</span>
-                                        <br>
-                                        <a href="#" class="card-text-small-blue">Supercoppa, Mantova beffato nel recupero: il Cesena vince 2-1 al Martelli</a>
+                        <div class="row-up">
+                            <div class="carousel-up">
+                                <div class="slide-up">
+                                    <div class="card-in-blue" >
+                                        <img src="https://placehold.co/446x250/lightgreen/white?text=Mantova+-+Cesena&font=Montserrat" class="card-img-top">
+                                        <div class="card-body" style="padding-left: 10px;padding-right: 10px">
+                                            <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// MANTOVA CALCIO</span>
+                                            <br>
+                                            <a href="#" class="card-text-small-blue">Supercoppa, Mantova beffato nel recupero: il Cesena vince 2-1 al Martelli</a>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="slide-up">
-                                <div class="card-in-blue" style="width: 220px;height: 240px;">
-                                    <img src="https://placehold.co/446x250/white/red?text=Squadra+di+Mantova&font=Montserrat" class="card-img-top">
-                                    <div class="card-body" style="padding-left: 10px;padding-right: 10px">
-                                        <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// MANTOVA CALCIO</span>
-                                        <br>
-                                        <a href="#" class="card-text-small-blue">Mantova, ecco le lezioni da trarre in vista della serie B dopo la gara di Supercoppa</a>
+                                <div class="slide-up">
+                                    <div class="card-in-blue" >
+                                        <img src="https://placehold.co/446x250/white/red?text=Squadra+di+Mantova&font=Montserrat" class="card-img-top">
+                                        <div class="card-body" style="padding-left: 10px;padding-right: 10px">
+                                            <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// MANTOVA CALCIO</span>
+                                            <br>
+                                            <a href="#" class="card-text-small-blue">Mantova, ecco le lezioni da trarre in vista della serie B dopo la gara di Supercoppa</a>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="slide-up">
-                                <div class="card-in-blue" style="width: 220px;height: 240px;">
-                                    <img src="https://placehold.co/446x250/white/red?text=Squadra+di+Mantova&font=Montserrat" class="card-img-top">
-                                    <div class="card-body" style="padding-left: 10px;padding-right: 10px">
-                                        <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// MANTOVA CALCIO</span>
-                                        <br>
-                                        <a href="#" class="card-text-small-blue">Mantova, ecco le lezioni da trarre in vista della serie B dopo la gara di Supercoppa</a>
+                                <div class="slide-up">
+                                    <div class="card-in-blue" >
+                                        <img src="https://placehold.co/446x250/white/red?text=Squadra+di+Mantova&font=Montserrat" class="card-img-top">
+                                        <div class="card-body" style="padding-left: 10px;padding-right: 10px">
+                                            <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// MANTOVA CALCIO</span>
+                                            <br>
+                                            <a href="#" class="card-text-small-blue">Mantova, ecco le lezioni da trarre in vista della serie B dopo la gara di Supercoppa</a>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="slide-up">
-                                <div class="card-in-blue" style="width: 220px;height: 240px;">
-                                    <img src="https://placehold.co/446x250/white/red?text=Squadra+di+Mantova&font=Montserrat" class="card-img-top">
-                                    <div class="card-body" style="padding-left: 10px;padding-right: 10px">
-                                        <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// MANTOVA CALCIO</span>
-                                        <br>
-                                        <a href="#" class="card-text-small-blue">Mantova, ecco le lezioni da trarre in vista della serie B dopo la gara di Supercoppa</a>
+                                <div class="slide-up">
+                                    <div class="card-in-blue" >
+                                        <img src="https://placehold.co/446x250/white/red?text=Squadra+di+Mantova&font=Montserrat" class="card-img-top">
+                                        <div class="card-body" style="padding-left: 10px;padding-right: 10px">
+                                            <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// MANTOVA CALCIO</span>
+                                            <br>
+                                            <a href="#" class="card-text-small-blue">Mantova, ecco le lezioni da trarre in vista della serie B dopo la gara di Supercoppa</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -1150,253 +1170,251 @@
                     </div>
                 </div>
             </div>
-        </div>
 
 
-        <div class="container text-center">
-            <div class="articles" >
-                <div class="contents">
-                    <div class="card mb-3">
-                        <div class="row g-0">
-                            <div class="col-md-4">
-                                <img src="https://placehold.co/412x230/lightgreen/gray?text=Canino+vincitore&font=Montserrat" class="img-fluid" alt="canino" style="padding-right: 10px">
+            <div class="container text-center">
+                <div class="articles" >
+                    <div class="contents">
+                        <div class="card mb-3">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="https://placehold.co/412x230/lightgreen/gray?text=Canino+vincitore&font=Montserrat" class="img-fluid" alt="canino" style="padding-right: 10px">
+                                </div>
+                                <div class="col-md-8">
+                                    <span style="font-family: 'DM Sans', sans-serif; font-weight: bold"> /// ANIMALI</span>
+                                    <br>
+                                    <a href="#" class="card-text-small">James Bond di Monzambano vince il dog show di Zagabria</a>
+                                </div>
                             </div>
-                            <div class="col-md-8">
-                                <span style="font-family: 'DM Sans', sans-serif; font-weight: bold"> /// ANIMALI</span>
-                                <br>
-                                <a href="#" class="card-text-small">James Bond di Monzambano vince il dog show di Zagabria</a>
+                        </div>
+
+                        <div class="card mb-3">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="https://placehold.co/410x230/white/black?text=Persone&font=Montserrat" class="img-fluid" alt="persone" style="padding-right: 10px">
+                                </div>
+                                <div class="col-md-8">
+                                    <span style="font-family: 'DM Sans', sans-serif; font-weight: bold"> /// </span>
+                                    <br>
+                                    <a href="#" class="card-text-small">A Mantova nuovo studio per eliminare gli odori</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card mb-3">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="https://placehold.co/408x232/white/black?text=Cercasi%0APersonale&font=Montserratg" class="img-fluid" alt="" style="padding-right: 10px">
+                                </div>
+                                <div class="col-md-8">
+                                    <span style="font-family: 'DM Sans', sans-serif; font-weight: bold"> /// COMPETENZE</span>
+                                    <br>
+                                    <a href="#" class="card-text-small">Competenze medio-basse in 9 assunzioni su 10 nel Mantovano</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card mb-3">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="https://placehold.co/408x232/white/gold?text=Pompieri&font=Montserratg" class="img-fluid" alt="pompieri" style="padding-right: 10px">
+                                </div>
+                                <div class="col-md-8">
+                                    <span style="font-family: 'DM Sans', sans-serif; font-weight: bold"> /// </span>
+                                    <br>
+                                    <a href="#" class="card-text-small">Incendio in una casa in viale Rimembranze a Mantova, deunciati quattro ragazzini</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card mb-3">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="https://placehold.co/408x232/gray/black?text=Immagine+della+strada&font=Montserratg" class="img-fluid" alt="foto strada" style="padding-right: 10px">
+                                </div>
+                                <div class="col-md-8">
+                                    <span style="font-family: 'DM Sans', sans-serif; font-weight: bold"> /// </span>
+                                    <br>
+                                    <a href="#" class="card-text-small">Perdite d'acqua tra i viali Hermada e Pasubio a Mantova: lunedì via alle riparazioni</a>
+                                </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="card mb-3">
-                        <div class="row g-0">
-                            <div class="col-md-4">
-                                <img src="https://placehold.co/410x230/white/black?text=Persone&font=Montserrat" class="img-fluid" alt="persone" style="padding-right: 10px">
-                            </div>
-                            <div class="col-md-8">
-                                <span style="font-family: 'DM Sans', sans-serif; font-weight: bold"> /// </span>
-                                <br>
-                                <a href="#" class="card-text-small">A Mantova nuovo studio per eliminare gli odori</a>
-                            </div>
+                    <div class="sidebar">
+
+                        <div style="height: 200px;background-color: lightgray;margin-bottom: 20px;">
+                            <img src="https://placehold.co/500x418/limegreen/white?text=Info+viabilità%0APrevisioni+traffico%0AWeb+cam&font=Montserratg" style="height: 100%; width: 80%; margin-left: 30px;margin-bottom: 10px;margin-top: -25px">
                         </div>
-                    </div>
-
-                    <div class="card mb-3">
-                        <div class="row g-0">
-                            <div class="col-md-4">
-                                <img src="https://placehold.co/408x232/white/black?text=Cercasi%0APersonale&font=Montserratg" class="img-fluid" alt="" style="padding-right: 10px">
-                            </div>
-                            <div class="col-md-8">
-                                <span style="font-family: 'DM Sans', sans-serif; font-weight: bold"> /// COMPETENZE</span>
-                                <br>
-                                <a href="#" class="card-text-small">Competenze medio-basse in 9 assunzioni su 10 nel Mantovano</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card mb-3">
-                        <div class="row g-0">
-                            <div class="col-md-4">
-                                <img src="https://placehold.co/408x232/white/gold?text=Pompieri&font=Montserratg" class="img-fluid" alt="pompieri" style="padding-right: 10px">
-                            </div>
-                            <div class="col-md-8">
-                                <span style="font-family: 'DM Sans', sans-serif; font-weight: bold"> /// </span>
-                                <br>
-                                <a href="#" class="card-text-small">Incendio in una casa in viale Rimembranze a Mantova, deunciati quattro ragazzini</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card mb-3">
-                        <div class="row g-0">
-                            <div class="col-md-4">
-                                <img src="https://placehold.co/408x232/gray/black?text=Immagine+della+strada&font=Montserratg" class="img-fluid" alt="foto strada" style="padding-right: 10px">
-                            </div>
-                            <div class="col-md-8">
-                                <span style="font-family: 'DM Sans', sans-serif; font-weight: bold"> /// </span>
-                                <br>
-                                <a href="#" class="card-text-small">Perdite d'acqua tra i viali Hermada e Pasubio a Mantova: lunedì via alle riparazioni</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="sidebar">
-
-                    <div style="height: 200px;background-color: lightgray;margin-bottom: 20px;">
-                        <img src="https://placehold.co/500x418/limegreen/white?text=Info+viabilità%0APrevisioni+traffico%0AWeb+cam&font=Montserratg" style="height: 100%; width: 80%; margin-left: 30px;margin-bottom: 10px;margin-top: -25px">
-                    </div>
-                    &nbsp;
+                        &nbsp;
 
 
-                    <div style="height: 300px;background-color: lightgray;margin-bottom: 20px;">
-                        <img src="https://placehold.co/498x350/orange/white?text=Cortile+della+cavallerizza%0AUna+passeggiata+per+aria&font=Montserratg" style="height: 80%; width: 80%; margin-left: 30px;margin-bottom: 10px;margin-top: -25px">
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-
-        <!--mostrata quando schermo largo-->
-        <div class="blue-section" id="showLarge" style="background-color: darkblue;">
-
-            <div>
-                <span style="font-size: 35px; font-family: 'Times New Roman';font-weight: bold; color: white"> FESTIVALdelFUTURO</span>
-            </div>
-            &nbsp;
-
-            <div class="row row-cols-1 row-cols-md-4 g-4">
-                <div class="col">
-                    <div class="card-in-blue" style="width: 220px;height: 240px;">
-                        <img src="https://placehold.co/446x250/blue/white?text=Foto+di+gruppo&font=Montserrat" class="card-img-top">
-                        <div class="card-body" style="padding-left: 10px;padding-right: 10px">
-                            <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// FOTO DI GRUPPO</span>
-                            <br>
-                            <a href="#" class="card-text-small-blue">Festival del futuro 2023, un lavoro di squadra</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card-in-blue" style="width: 220px;height: 240px;">
-                        <img src="https://placehold.co/446x250/white/lightblue?text=Changing+the+Future&font=Montserrat" class="card-img-top">
-                        <div class="card-body" style="padding-left: 10px;padding-right: 10px">
-                            <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// TESTIMONIANZE</span>
-                            <br>
-                            <a href="#" class="card-text-small-blue">Profit-non-profit: Quid che valorizza ciò che la società scarta</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card-in-blue" style="width: 220px;height: 240px;">
-                        <img src="https://placehold.co/446x250/blue/white?text=Dialogo&font=Montserrat" class="card-img-top">
-                        <div class="card-body" style="padding-left: 10px;padding-right: 10px">
-                            <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// IMPRESE A CONFRONTO</span>
-                            <br>
-                            <a href="#" class="card-text-small-blue">L'industria: motore dello sviluppo sociale del territorio</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card-in-blue" style="width: 220px;height: 240px;">
-                        <img src="https://placehold.co/446x250/lightblue/white?text=Dialogo&font=Montserrat" class="card-img-top">
-                        <div class="card-body" style="padding-left: 10px;padding-right: 10px">
-                            <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// NUOVE GENERAZIONI</span>
-                            <br>
-                            <a href="#" class="card-text-small-blue">"Indossiamo nuovi occhiali per guardare in faccia i giovani"</a>
+                        <div style="height: 300px;background-color: lightgray;margin-bottom: 20px;">
+                            <img src="https://placehold.co/498x350/orange/white?text=Cortile+della+cavallerizza%0AUna+passeggiata+per+aria&font=Montserratg" style="height: 80%; width: 80%; margin-left: 30px;margin-bottom: 10px;margin-top: -25px">
                         </div>
                     </div>
                 </div>
             </div>
-            &nbsp;
-            <div style="text-align: end">
-                <a href="#" class="speciale"> VAI ALLO SPECIALE </a>
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-chevron-right" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
-                </svg>
-            </div>
-        </div>
 
 
-        <div class="gallery-container" id="showCarousel">
-            <div class="gallery blue-section" style="background-color: darkblue">
+            <!--mostrata quando schermo largo-->
+            <div class="blue-section" id="showLarge" style="background-color: darkblue;">
+
                 <div>
                     <span style="font-size: 35px; font-family: 'Times New Roman';font-weight: bold; color: white"> FESTIVALdelFUTURO</span>
                 </div>
-                <div class="carousel">
-                    <div class="slide">
-                        <div class="card-in-blue">
+                &nbsp;
+
+                <div class="row row-cols-1 row-cols-md-4 g-4">
+                    <div class="col">
+                        <div class="card-in-blue" style="width: 220px;height: 240px;">
                             <img src="https://placehold.co/446x250/blue/white?text=Foto+di+gruppo&font=Montserrat" class="card-img-top">
-                            <div class="card-body">
-                                <span class="card-title"> /// FOTO DI GRUPPO</span>
+                            <div class="card-body" style="padding-left: 10px;padding-right: 10px">
+                                <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// FOTO DI GRUPPO</span>
                                 <br>
                                 <a href="#" class="card-text-small-blue">Festival del futuro 2023, un lavoro di squadra</a>
                             </div>
                         </div>
                     </div>
-                    <div class="slide">
-                        <div class="card-in-blue">
-                            <img src="https://placehold.co/446x250/blue/white?text=Foto+di+gruppo&font=Montserrat" class="card-img-top">
-                            <div class="card-body">
-                                <span class="card-title"> /// FOTO DI GRUPPO</span>
+                    <div class="col">
+                        <div class="card-in-blue" style="width: 220px;height: 240px;">
+                            <img src="https://placehold.co/446x250/white/lightblue?text=Changing+the+Future&font=Montserrat" class="card-img-top">
+                            <div class="card-body" style="padding-left: 10px;padding-right: 10px">
+                                <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// TESTIMONIANZE</span>
                                 <br>
-                                <a href="#" class="card-text-small-blue">Festival del futuro 2023, un lavoro di squadra</a>
+                                <a href="#" class="card-text-small-blue">Profit-non-profit: Quid che valorizza ciò che la società scarta</a>
                             </div>
                         </div>
                     </div>
-                    <div class="slide">
-                        <div class="card-in-blue">
-                            <img src="https://placehold.co/446x250/blue/white?text=Foto+di+gruppo&font=Montserrat" class="card-img-top">
-                            <div class="card-body">
-                                <span class="card-title"> /// FOTO DI GRUPPO</span>
+                    <div class="col">
+                        <div class="card-in-blue" style="width: 220px;height: 240px;">
+                            <img src="https://placehold.co/446x250/blue/white?text=Dialogo&font=Montserrat" class="card-img-top">
+                            <div class="card-body" style="padding-left: 10px;padding-right: 10px">
+                                <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// IMPRESE A CONFRONTO</span>
                                 <br>
-                                <a href="#" class="card-text-small-blue">Festival del futuro 2023, un lavoro di squadra</a>
+                                <a href="#" class="card-text-small-blue">L'industria: motore dello sviluppo sociale del territorio</a>
                             </div>
                         </div>
                     </div>
-                    <div class="slide">
-                        <div class="card-in-blue">
-                            <img src="https://placehold.co/446x250/blue/white?text=Foto+di+gruppo&font=Montserrat" class="card-img-top">
-                            <div class="card-body">
-                                <span class="card-title"> /// FOTO DI GRUPPO</span>
+                    <div class="col">
+                        <div class="card-in-blue" style="width: 220px;height: 240px;">
+                            <img src="https://placehold.co/446x250/lightblue/white?text=Dialogo&font=Montserrat" class="card-img-top">
+                            <div class="card-body" style="padding-left: 10px;padding-right: 10px">
+                                <span style="font-family: 'DM Sans', sans-serif; font-weight: bold; font-size: 12px" > /// NUOVE GENERAZIONI</span>
                                 <br>
-                                <a href="#" class="card-text-small-blue">Festival del futuro 2023, un lavoro di squadra</a>
+                                <a href="#" class="card-text-small-blue">"Indossiamo nuovi occhiali per guardare in faccia i giovani"</a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="special">
+                &nbsp;
+                <div style="text-align: end">
                     <a href="#" class="speciale"> VAI ALLO SPECIALE </a>
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-chevron-right" viewBox="0 0 16 16">
                         <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
                     </svg>
                 </div>
             </div>
-        </div>
 
-
-
-        <div class="container text-center">
-
-            <div style="text-align: center; border-bottom: 1px dotted; padding-top: 1rem" >
-            </div>
-
-            <div class="articles">
-                <div class="contents">
-                    <a href="#" class="pre-footer" > In Edicola </a>
-
-                    <div class="card-in-blue" style="width: 320px;height: 300px;">
-                        <img src="https://placehold.co/536x303/violet/black?text=Scuola%0AEducazione+Civica&font=Montserratg" class="card-img-top" style="height: 60%; width: 75%; margin-left: 40px;margin-top: 20px;margin-bottom: 10px">
-                        <div class="card-body" style="padding-left: 10px;padding-right: 10px; text-align: center">
-                            <p style="font-family: 'Times New Roman'; font-weight: bold; font-size: 20px">Dall'Io al Noi</p>
-
-                            <button type="button" class="scopri">Scopri</button>
-
+            <!--mostrata quando schermo stretto-->
+            <div class="gallery-container" id="showCarousel">
+                <div class="gallery blue-section" style="background-color: darkblue">
+                    <div>
+                        <span style="font-size: 35px; font-family: 'Times New Roman';font-weight: bold; color: white"> FESTIVALdelFUTURO</span>
+                    </div>
+                    <div class="carousel">
+                        <div class="slide">
+                            <div class="card-in-blue">
+                                <img src="https://placehold.co/446x250/blue/white?text=Foto+di+gruppo&font=Montserrat" class="card-img-top">
+                                <div class="card-body">
+                                    <span class="card-title"> /// FOTO DI GRUPPO</span>
+                                    <br>
+                                    <a href="#" class="card-text-small-blue">Festival del futuro 2023, un lavoro di squadra</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="card-in-blue">
+                                <img src="https://placehold.co/446x250/blue/white?text=Foto+di+gruppo&font=Montserrat" class="card-img-top">
+                                <div class="card-body">
+                                    <span class="card-title"> /// FOTO DI GRUPPO</span>
+                                    <br>
+                                    <a href="#" class="card-text-small-blue">Festival del futuro 2023, un lavoro di squadra</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="card-in-blue">
+                                <img src="https://placehold.co/446x250/blue/white?text=Foto+di+gruppo&font=Montserrat" class="card-img-top">
+                                <div class="card-body">
+                                    <span class="card-title"> /// FOTO DI GRUPPO</span>
+                                    <br>
+                                    <a href="#" class="card-text-small-blue">Festival del futuro 2023, un lavoro di squadra</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="card-in-blue">
+                                <img src="https://placehold.co/446x250/blue/white?text=Foto+di+gruppo&font=Montserrat" class="card-img-top">
+                                <div class="card-body">
+                                    <span class="card-title"> /// FOTO DI GRUPPO</span>
+                                    <br>
+                                    <a href="#" class="card-text-small-blue">Festival del futuro 2023, un lavoro di squadra</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-
-                <div class="sidebar">
-                    <a href="#" class="pre-footer" > Il quotidiano </a>
-
-                    <div class="card-in-blue" style="width: 320px;height: 300px;background-color: #1a3b70">
-                        <img src="https://placehold.co/432x309/white/1a3b70?text=Giornale%0ADella+Gazzetta&font=Montserratg" class="card-img-top" style="height: 60%; width: 75%; margin-left: 40px;margin-top: 20px;margin-bottom: 10px">
-                        &nbsp;
-                        <div class="card-body" style="padding-left: 10px;padding-right: 10px; text-align: center">
-                            <button type="button" class="abbonati">Abbonati</button>
-                            <p style="font-family: 'DM Sans'; color: white">Già abbonato? Accedi</p>
-                        </div>
+                    <div class="special">
+                        <a href="#" class="speciale"> VAI ALLO SPECIALE </a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
+                        </svg>
                     </div>
                 </div>
-
             </div>
 
 
-            <div class="line-pre-footer">
+
+            <div class="container text-center">
+
+                <div style="text-align: center; border-bottom: 1px dotted; padding-top: 1rem" >
+                </div>
+
+                <div class="articles">
+                    <div class="contents">
+                        <a href="#" class="pre-footer" > In Edicola </a>
+
+                        <div class="card-in-blue" style="width: 320px;height: 300px;">
+                            <img src="https://placehold.co/536x303/violet/black?text=Scuola%0AEducazione+Civica&font=Montserratg" class="card-img-top" style="height: 60%; width: 75%; margin-left: 40px;margin-top: 20px;margin-bottom: 10px">
+                            <div class="card-body" style="padding-left: 10px;padding-right: 10px; text-align: center">
+                                <p style="font-family: 'Times New Roman'; font-weight: bold; font-size: 20px">Dall'Io al Noi</p>
+
+                                <button type="button" class="scopri">Scopri</button>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sidebar">
+                        <a href="#" class="pre-footer" > Il quotidiano </a>
+
+                        <div class="card-in-blue" style="width: 320px;height: 300px;background-color: #1a3b70">
+                            <img src="https://placehold.co/432x309/white/1a3b70?text=Giornale%0ADella+Gazzetta&font=Montserratg" class="card-img-top" style="height: 60%; width: 75%; margin-left: 40px;margin-top: 20px;margin-bottom: 10px">
+                            &nbsp;
+                            <div class="card-body" style="padding-left: 10px;padding-right: 10px; text-align: center">
+                                <button type="button" class="abbonati">Abbonati</button>
+                                <p style="font-family: 'DM Sans'; color: white">Già abbonato? Accedi</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="line-pre-footer">
+                </div>
+
             </div>
-
-
             <footer>
                 <nav class="footer-nav">
                     <div class="footer-sx">
@@ -1422,35 +1440,35 @@
                     </div>
                 </nav>
 
-                <div style="text-align: center; border-bottom: 1px dotted" >
-                </div>
+            <div style="text-align: center; border-bottom: 1px dotted" >
+            </div>
 
-                <div style="text-align: left">
-                    <span style="font-family: 'DM Sans', sans-serif; font-size: 12px"> IL GRUPPO </span>
-                </div>
-                &nbsp;
-                <div class="loghi">
-                    <img src=https://placehold.co/74x46/lightblue/black?text=ATHESIS&font=Montserratg">
-                    <img src=https://placehold.co/74x46/white/black?text=L'Arena&font=Montserratg">
-                    <img src=https://placehold.co/74x46/white/black?text=IL+GIORNALE%0AEDI+VICENZA&font=Montserratg">
-                    <img src=https://placehold.co/74x46/red/white?text=BRESCIAOGGI&font=Montserratg">
-                    <img src=https://placehold.co/74x46/white/black?text=GAZZETTA%0ADI+MANTOVA&font=Montserratg">
-                    <img src=https://placehold.co/74x46/white/lightbrown?text=PubliAdige&font=Montserratg">
-                    <img src=https://placehold.co/74x46/white/green?text=Radio+Verona&font=Montserratg">
-                    <img src=https://placehold.co/74x46/white/gold?text=TeleArena&font=Montserratg">
-                    <img src=https://placehold.co/74x46/white/purple?text=TeleMantova&font=Montserratg">
-                    <img src=https://placehold.co/74x46/white/red?text=NERI+POZZA&font=Montserratg">
-                    <img src=https://placehold.co/74x46/green/red?text=Tutto+ACADEMY&font=Montserratg">
-                    <img src=https://placehold.co/74x46/violet/white?text=ZEEP!&font=Montserratg">
-                </div>
-                &nbsp;
-                <div class="scrittine">
-                    <p>Gazzetta di Mantova – Corso Porta Nuova, 60 – I-37120 Verona (VR) – REA VR-462759 – Cap. soc. i.v.: ... Euro – P.IVA e C.F. 04220130231</p>
-                    <p>Copyright © 2024 – Tutti i diritti riservati</p>
-                </div>
+            <div style="text-align: left">
+                <span style="font-family: 'DM Sans', sans-serif; font-size: 12px"> IL GRUPPO </span>
+            </div>
+            &nbsp;
+            <div class="loghi">
+                <img src=https://placehold.co/74x46/lightblue/black?text=ATHESIS&font=Montserratg">
+                <img src=https://placehold.co/74x46/white/black?text=L'Arena&font=Montserratg">
+                <img src=https://placehold.co/74x46/white/black?text=IL+GIORNALE%0AEDI+VICENZA&font=Montserratg">
+                <img src=https://placehold.co/74x46/red/white?text=BRESCIAOGGI&font=Montserratg">
+                <img src=https://placehold.co/74x46/white/black?text=GAZZETTA%0ADI+MANTOVA&font=Montserratg">
+                <img src=https://placehold.co/74x46/white/lightbrown?text=PubliAdige&font=Montserratg">
+                <img src=https://placehold.co/74x46/white/green?text=Radio+Verona&font=Montserratg">
+                <img src=https://placehold.co/74x46/white/gold?text=TeleArena&font=Montserratg">
+                <img src=https://placehold.co/74x46/white/purple?text=TeleMantova&font=Montserratg">
+                <img src=https://placehold.co/74x46/white/red?text=NERI+POZZA&font=Montserratg">
+                <img src=https://placehold.co/74x46/green/red?text=Tutto+ACADEMY&font=Montserratg">
+                <img src=https://placehold.co/74x46/violet/white?text=ZEEP!&font=Montserratg">
+            </div>
+            &nbsp;
+            <div class="scrittine">
+                <p>Gazzetta di Mantova – Corso Porta Nuova, 60 – I-37120 Verona (VR) – REA VR-462759 – Cap. soc. i.v.: ... Euro – P.IVA e C.F. 04220130231</p>
+                <p>Copyright © 2024 – Tutti i diritti riservati</p>
+            </div>
 
 
-            </footer>
+        </footer>
 
         </div>
 
@@ -1462,6 +1480,5 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     </body>
-
 
 </html>
